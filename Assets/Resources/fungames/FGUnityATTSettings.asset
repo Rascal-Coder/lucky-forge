@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de8caa3920b1c4a8b341c45b5287b678, type: 3}
+  m_Name: FGUnityATTSettings
+  m_EditorClassIdentifier:
+  moduleInfo:
+    Id: fg_unity_att
+    Name: Unity ATT
+    Version: 3.4.0.0
+    LogColor: '#E7AB7B'
+    PackageUrl: https://gitlab.com/fungames-sdk/userconsent/att/fg_unity_att/-/raw/3.4.0.0/fg_unity_att-3.4.0.0.unitypackage
+    HasIssue: 0
+    IsDeprecated: 0
+    IsBeta: 0
+    Plugins: []
+    Dependencies:
+    - fg_core-3.4.0.0
+    - fg_att-3.4.0.0
+  LogColor: {r: 0.90588236, g: 0.67058825, b: 0.48235294, a: 1}
+  logEnabled: 0

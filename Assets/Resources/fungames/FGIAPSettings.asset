@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c18c84ea1f79dba4af1f3abc7215486, type: 3}
+  m_Name: FGIAPSettings
+  m_EditorClassIdentifier:
+  moduleInfo:
+    Id: fg_iap
+    Name: In App Purchase
+    Version: 3.4.0.0
+    LogColor: '#672433'
+    PackageUrl: https://gitlab.com/fungames-sdk/monetization/iap/fg_iap/-/raw/3.4.0.0/fg_iap-3.4.0.0.unitypackage
+    HasIssue: 0
+    IsDeprecated: 0
+    IsBeta: 0
+    Plugins: []
+    Dependencies:
+    - fg_core-3.4.0.0
+    - fg_analytics-3.4.0.0
+    - fg_user_consent-3.4.0.0
+    - fg_tools-3.4.0.0
+  LogColor: {r: 0.40392157, g: 0.14117648, b: 0.2, a: 1}
+  logEnabled: 1
+  Products:
+  - {fileID: 11400000, guid: 288c63aef9e487c4795f614ad97bd240, type: 2}
+  - {fileID: 11400000, guid: ca13d23f17d901c4f971f14ab5497133, type: 2}
+  - {fileID: 11400000, guid: 94875b38fd7a8bb4ab7e8c79286ac5bc, type: 2}
+  - {fileID: 11400000, guid: 803b3199b51901d449d546bea9613a21, type: 2}
+  - {fileID: 11400000, guid: fb364c8622adb84428a952ede965d283, type: 2}
+  - {fileID: 11400000, guid: 718a7950550a1a240aab678bb532c071, type: 2}
+  - {fileID: 11400000, guid: d7012d26926f2aa43885130dfbec8398, type: 2}
+  - {fileID: 11400000, guid: 5e5390c64c79df545a638d07b6283bc4, type: 2}
+  - {fileID: 11400000, guid: 377d9692430189b4eac2f904f96da6ba, type: 2}
+  - {fileID: 11400000, guid: 7a443bdf8c4a2ad41b8bf36b5757e258, type: 2}
+  - {fileID: 11400000, guid: a865d362bc17aaa4baab8462874c4675, type: 2}
+  - {fileID: 11400000, guid: d1b72bbac7c50a144b025861dda52a6b, type: 2}
+  - {fileID: 11400000, guid: d81d84c775ed93d4484a0579dcc627fe, type: 2}
+  - {fileID: 11400000, guid: fb8d486e09507f046acab386b8817766, type: 2}
+  - {fileID: 11400000, guid: e097dda0fa30ac344b2e87d2ae343ade, type: 2}
+  - {fileID: 11400000, guid: ed6542cda2c579247b64785d3665927d, type: 2}
+  - {fileID: 11400000, guid: d2ee86d947ab27b42971cab21634ac60, type: 2}
+  - {fileID: 11400000, guid: 0ee432e3d9f4e844cb24e84421456c79, type: 2}
+  - {fileID: 11400000, guid: 0cb9df8ede8583d4ab4e9ddbbfe35167, type: 2}
+  - {fileID: 11400000, guid: 7191ce05491397a47a4550b912470737, type: 2}
+  - {fileID: 11400000, guid: bbabcb6162f22384697ae0a5e21999d8, type: 2}
+  - {fileID: 11400000, guid: 906365bd1c8ada64fa4e98d02b42dcf8, type: 2}
+  - {fileID: 11400000, guid: f07ce30beaf658c4db529c40f706a3a0, type: 2}
+  - {fileID: 11400000, guid: c4c29a5fe857f16488c1bdc2ccbe6451, type: 2}
+  - {fileID: 11400000, guid: 22d9641df23a073438820ca33d5a0821, type: 2}
+  - {fileID: 11400000, guid: d4c33baa67d9c4746b1956c828475867, type: 2}
+  - {fileID: 11400000, guid: 1197e92d8cda213468d9a35756d3bebd, type: 2}
+  - {fileID: 11400000, guid: 7c46150216425554c9980ae505a293d7, type: 2}
+  - {fileID: 11400000, guid: 46b48a93f4c4c7e45a80cd9fb9542e57, type: 2}
+  - {fileID: 11400000, guid: 78eb6af13aa04a7408cf86959fcfe1ef, type: 2}
+  - {fileID: 11400000, guid: 41e66e43345de894fbb9a300d976ea0c, type: 2}
+  - {fileID: 11400000, guid: e8bd487f7f75f0f4f93eea60f536592f, type: 2}

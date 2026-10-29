@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e491644c2faf2314649d77900ebb26e8, type: 3}
+  m_Name: ClanPrefabs
+  m_EditorClassIdentifier:
+  WindowLoader: {fileID: 1709254077376921, guid: 46d7928c980db17468dace82f586393b, type: 2}
+  ClanInviteResult: {fileID: 1709254077376921, guid: 408124d6e37749a419501a409651e354, type: 2}
+  ClanRequestedUser: {fileID: 1709254077376921, guid: 5011b9486f557bf4ab576bde29ac73d2, type: 2}
+  ClanMember: {fileID: 1709254077376921, guid: 55d0c02badfb5c944a7f9954e87ad92e, type: 2}
+  ClanTask: {fileID: 1709254077376921, guid: a114fab10501ad246a17f06f47f7da45, type: 2}
+  ColorButton: {fileID: 1709254077376921, guid: e59f8ecb26d3c0b4a88c9c193e801018, type: 2}

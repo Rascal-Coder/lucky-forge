@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22dcbd9bdc9cd3b958b98e7a3982fdf0, type: 3}
+  m_Name: WandEpic
+  m_EditorClassIdentifier:
+  skillicon:
+  - {fileID: 21300000, guid: a8a4e74dd0c40fc438d35ae95557a536, type: 2}
+  - {fileID: 21300000, guid: 0d8734abcb866a840919c014a1ea9dda, type: 2}
+  skillName:
+  - WandEpic
+  - WandEpic2
+  requiredLevel: 0100000008000000
+  triggerByAttack: 0
+  cooldown: 10
+  startDamagePercent: 110
+  commanderforINFO: {fileID: 0}

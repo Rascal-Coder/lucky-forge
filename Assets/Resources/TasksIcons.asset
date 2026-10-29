@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f812207142dd6f0052d044e932d102f, type: 3}
+  m_Name: TasksIcons
+  m_EditorClassIdentifier:
+  AllSprites:
+  - ID: CBSClanTasktasktest
+    Sprite: {fileID: 0}
+  - ID: test5uyyy
+    Sprite: {fileID: 0}
+  - ID: taskpool1tttt
+    Sprite: {fileID: 0}
+  - ID: CBSClanTasktesttest2
+    Sprite: {fileID: 0}
+  - ID: taskpool1125125
+    Sprite: {fileID: 0}
+  - ID: CBSAchievementsach
+    Sprite: {fileID: 0}
+  - ID: task1tast
+    Sprite: {fileID: 0}
+  - ID: CBSClanTaskLogin
+    Sprite: {fileID: 21300000, guid: b1e7e1d5da57f1040967451d8d77af55, type: 2}
+  - ID: CBSClanTaskEnemyKill
+    Sprite: {fileID: 21300000, guid: b1e7e1d5da57f1040967451d8d77af55, type: 2}
+  - ID: CBSClanTaskDungeonClear
+    Sprite: {fileID: 21300000, guid: b1e7e1d5da57f1040967451d8d77af55, type: 2}
+  - ID: CBSClanTaskBossKill
+    Sprite: {fileID: 21300000, guid: b1e7e1d5da57f1040967451d8d77af55, type: 2}
+  - ID: CBSClanTaskFindTalent
+    Sprite: {fileID: 21300000, guid: b1e7e1d5da57f1040967451d8d77af55, type: 2}
+  - ID: CBSClanTaskNewSiege
+    Sprite: {fileID: 21300000, guid: b1e7e1d5da57f1040967451d8d77af55, type: 2}
+  - ID: CBSClanTaskCompleteResearch
+    Sprite: {fileID: 21300000, guid: 7dc62447b272a3d459d44c85a6abc5a0, type: 2}
+  - ID: CBSClanTaskSummonEquipment
+    Sprite: {fileID: 21300000, guid: 7dc62447b272a3d459d44c85a6abc5a0, type: 2}
+  - ID: CBSClanTaskUpgradeShip
+    Sprite: {fileID: 21300000, guid: 7dc62447b272a3d459d44c85a6abc5a0, type: 2}
+  - ID: CBSClanTaskReklamOduluAl
+    Sprite: {fileID: 21300000, guid: 7dc62447b272a3d459d44c85a6abc5a0, type: 2}
+  - ID: CBSClanTaskSatinAlim
+    Sprite: {fileID: 21300000, guid: b1e7e1d5da57f1040967451d8d77af55, type: 2}
+  - ID: CBSClanTaskMergeEquipment
+    Sprite: {fileID: 21300000, guid: b1e7e1d5da57f1040967451d8d77af55, type: 2}
+  - ID: CBSClanTaskUpgradeWeapon
+    Sprite: {fileID: 21300000, guid: b1e7e1d5da57f1040967451d8d77af55, type: 2}
+  - ID: CBSClanTaskReklamOdulAl
+    Sprite: {fileID: 21300000, guid: b1e7e1d5da57f1040967451d8d77af55, type: 2}
+  - ID: CBSClanTaskSpawnMistik
+    Sprite: {fileID: 21300000, guid: b1e7e1d5da57f1040967451d8d77af55, type: 2}
+  - ID: CBSClanTaskGuildBoss1
+    Sprite: {fileID: 21300000, guid: b1e7e1d5da57f1040967451d8d77af55, type: 2}
+  - ID: CBSClanTaskGuildBoss2
+    Sprite: {fileID: 21300000, guid: b1e7e1d5da57f1040967451d8d77af55, type: 2}
+  - ID: CBSClanTaskGuildBoss3
+    Sprite: {fileID: 21300000, guid: b1e7e1d5da57f1040967451d8d77af55, type: 2}
+  - ID: CBSClanTaskGuildBoss4
+    Sprite: {fileID: 21300000, guid: b1e7e1d5da57f1040967451d8d77af55, type: 2}

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a6eaad1637eb3eb7801e5979b92f43c, type: 3}
+  m_Name: FGCustomGDPRSettings
+  m_EditorClassIdentifier:
+  moduleInfo:
+    Id: fg_custom_gdpr
+    Name: Custom GDPR
+    Version: 3.4.0.1
+    LogColor: '#E7AB7B'
+    PackageUrl: https://gitlab.com/fungames-sdk/userconsent/gdpr/fg_custom_gdpr/-/raw/3.4.0.1/fg_custom_gdpr-3.4.0.1.unitypackage
+    HasIssue: 0
+    IsDeprecated: 0
+    IsBeta: 0
+    Plugins: []
+    Dependencies:
+    - fg_core-3.4.0.0
+    - fg_gdpr-3.4.0.0
+    - fg_user_consent-3.4.0.0
+    - fg_remote_config-3.4.0.0
+    - fg_tools-3.4.0.3
+  LogColor: {r: 0.90588236, g: 0.67058825, b: 0.48235294, a: 1}
+  logEnabled: 0

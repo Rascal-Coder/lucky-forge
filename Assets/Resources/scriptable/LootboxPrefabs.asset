@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec2f2cc01aa93c8b28ad2ec131d39ad, type: 3}
+  m_Name: LootboxPrefabs
+  m_EditorClassIdentifier:
+  LootBoxes: {fileID: 1709254077376921, guid: 93375b9df2c731245b97018fe02375b1, type: 2}
+  LootBoxSlot: {fileID: 1709254077376921, guid: 19e0a1b4d52c83948b0dc04d04ce2c45, type: 2}
+  LootBoxResult: {fileID: 1709254077376921, guid: 8318f97884d303d4c9717965078db24c, type: 2}

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e137ba979b7a205243e9e1459ab6ffe9, type: 3}
+  m_Name: Kafalik3
+  m_EditorClassIdentifier:
+  gearName: 11
+  slot: 0
+  type: 2
+  icon: {fileID: 21300000, guid: ce45aafc9f53a4649844158a8ba9a057, type: 2}
+  sloticon: {fileID: 21300000, guid: 1d5fa9997f553b24a9dd1bfd861ee3b3, type: 2}
+  baseAttackRaritys: 02000000000000000900000000000000230000000000000050000000000000006d00000000000000
+  perks:
+  - stat: EpicAttackArtisi
+    value: 10
+  - stat: AxeAttackArtisi
+    value: 10
+  - stat: SwordATKSpeedArtisi
+    value: 15
+  - stat: MaceCritDamageArtisi
+    value: 30
+  - stat: MistikAttackArtisi
+    value: 30

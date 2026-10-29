@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecd6c04e0a054c2f323e893f029081f5, type: 3}
+  m_Name: MatchmakingPrefabs
+  m_EditorClassIdentifier:
+  MatchmakingWindow: {fileID: 1709254077376921, guid: 1f9e616ea8aac1446bf74312526a261b, type: 2}
+  MatchmakingQueue: {fileID: 1709254077376921, guid: 4ab9a707122a15041941b00ea8a61458, type: 2}
+  WaitOpponentWindow: {fileID: 1709254077376921, guid: 96a2393e44d9bc3439480c0c9c8aa4c7, type: 2}
+  DuelPreview: {fileID: 1709254077376921, guid: 223ef17249729ad4f8458c045b1e59fa, type: 2}
+  SinglePreview: {fileID: 1709254077376921, guid: f668b350f4c8abd499aaba80bfd847b9, type: 2}
+  TeamPreview: {fileID: 1709254077376921, guid: 523ea99980bf94447aa1989669b5877a, type: 2}
+  SinglePlayer: {fileID: 1709254077376921, guid: 56c675df50af3cc43b331c8f14453c10, type: 2}
+  TeamLayer: {fileID: 1709254077376921, guid: bc9435b831c963245b2496a0c92afda3, type: 2}

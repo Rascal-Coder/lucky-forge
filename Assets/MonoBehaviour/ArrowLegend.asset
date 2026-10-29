@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adda9d8a00c4ebe9fa88039ccbf4b854, type: 3}
+  m_Name: ArrowLegend
+  m_EditorClassIdentifier:
+  skillicon:
+  - {fileID: 21300000, guid: eb962d7548c91a540a976c3cbf7a9361, type: 2}
+  - {fileID: 21300000, guid: 7286e26894cb0b841893e54846e63565, type: 2}
+  skillName:
+  - ArrowLegend
+  - ArrowLegend2
+  requiredLevel: 0100000008000000
+  triggerByAttack: 0
+  cooldown: 10
+  startDamagePercent: 200
+  commanderforINFO: {fileID: 0}

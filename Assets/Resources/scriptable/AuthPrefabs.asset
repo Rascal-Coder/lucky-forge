@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7e7121acc9f89072760aa2953753f65, type: 3}
+  m_Name: AuthPrefabs
+  m_EditorClassIdentifier:
+  LoginForm: {fileID: 1709254077376921, guid: 508f3fc8339b73845b921d5cfafe0dea, type: 2}
+  RegisterForm: {fileID: 1709254077376921, guid: a82f10e127d97d943ba97cc8a4447433, type: 2}
+  RecoveryForm: {fileID: 1709254077376921, guid: cf4260ee5acb8a543a3c96cd17688bf6, type: 2}
+  Background: {fileID: 1709254077376921, guid: ec48fb71e7c032c4f989e2e35616e717, type: 2}

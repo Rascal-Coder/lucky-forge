@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0c061515853b9a053add39e6a382aa5, type: 3}
+  m_Name: FGToolsSettings
+  m_EditorClassIdentifier:
+  moduleInfo:
+    Id: fg_tools
+    Name: Tools
+    Version: 3.4.0.3
+    LogColor: FFFFFF
+    PackageUrl: https://gitlab.com/fungames-sdk/tools/fg_tools/-/raw/3.4.0.3/fg_tools-3.4.0.3.unitypackage
+    HasIssue: 0
+    IsDeprecated: 0
+    IsBeta: 0
+    Plugins:
+    - com.unity.ads.ios-support
+    - com.unity.nuget.newtonsoft-json
+    Dependencies:
+    - fg_core-3.4.0.1
+    - fg_remote_config-3.4.0.0
+    - fg_analytics-3.4.0.0
+    - fg_user_consent-3.4.0.0
+  LogColor: {r: 1, g: 1, b: 1, a: 1}
+  logEnabled: 0
+  AddIAPCapability: 0
+  SetUsesNonExemptEncryptionFalse: 0
+  SetPrivacyInfo: 0
+  SetMarketingVersion: 0
+  AddOtherLinkerFlags: []

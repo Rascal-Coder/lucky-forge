@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 975bc29967b6c751ce63b1278d37ac03, type: 3}
+  m_Name: FGMMPSettings
+  m_EditorClassIdentifier:
+  moduleInfo:
+    Id: fg_mmp
+    Name: MMP
+    Version: 3.4.0.0
+    LogColor: '#8C665D'
+    PackageUrl: https://gitlab.com/fungames-sdk/mmp/fg_mmp/-/raw/3.4.0.0/fg_mmp-3.4.0.0.unitypackage
+    HasIssue: 0
+    IsDeprecated: 0
+    IsBeta: 0
+    Plugins: []
+    Dependencies:
+    - fg_user_consent-3.4.0.0
+    - fg_tools-3.4.0.0
+  LogColor: {r: 0.54901963, g: 0.4, b: 0.3647059, a: 1}
+  logEnabled: 0

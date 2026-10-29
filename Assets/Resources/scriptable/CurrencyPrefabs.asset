@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45eb335bf2334fe4b08d918c284c011c, type: 3}
+  m_Name: CurrencyPrefabs
+  m_EditorClassIdentifier:
+  CurrencyPanel: {fileID: 1709254077376921, guid: db17271b5742f064989024cafddde11b, type: 2}
+  CurrencyItem: {fileID: 1709254077376921, guid: 1bb32b32da83b6b47a20ec2f3912a852, type: 2}
+  CurrenciesPacks: {fileID: 1709254077376921, guid: 9dd01d31ee3b34b439f2d57618836381, type: 2}
+  CurrencyPackItem: {fileID: 1709254077376921, guid: 21a77a0a8d71ded4aa5877810200728c, type: 2}
+  CurrencySlot: {fileID: 1709254077376921, guid: 0f2aa85889da0de44bb133dc5ef888ee, type: 2}

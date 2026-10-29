@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ed06a00a79f32aa27fa518961a3cc5f, type: 3}
+  m_Name: CraftPrefabs
+  m_EditorClassIdentifier:
+  CraftWindow: {fileID: 1709254077376921, guid: d9160fcd2d102794caceb1aede0cd3c0, type: 2}
+  DependencySlot: {fileID: 1709254077376921, guid: 080d04f3acea46c42a8663005fd01883, type: 2}
+  RecipeSlot: {fileID: 1709254077376921, guid: 6703b6dd55164374191aac16828e5829, type: 2}

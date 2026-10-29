@@ -1,0 +1,13 @@
+.gitignore text eol=lf
+.gitattributes text eol=lf
+# Preserve the original large Unity scene through Git LFS.
+Assets/Scenes/Sahne.unity filter=lfs diff=lfs merge=lfs -text
+
+# Stable text serialization; runtime/plugin binaries remain versioned normally.
+*.cs text eol=lf
+*.meta text eol=lf
+*.prefab text eol=lf
+*.mat text eol=lf
+*.shader text eol=lf
+*.json text eol=lf
+*.md text eol=lf

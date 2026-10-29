@@ -1,0 +1,191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9d9bdeb13f087a3fd1b71efac1c6e8d, type: 3}
+  m_Name: ClanIcons
+  m_EditorClassIdentifier:
+  AllSprites:
+  - ID: clan_icon_1
+    Sprite: {fileID: 21300000, guid: 3b9cd5bcb8bc76649ac6d2d47548fb8f, type: 2}
+  - ID: clan_icon_2
+    Sprite: {fileID: 21300000, guid: ac149cba035d78d4caba3c22e36566db, type: 2}
+  - ID: clan_icon_3
+    Sprite: {fileID: 21300000, guid: 4644a935e0a9d784dbd7f465d55b7be8, type: 2}
+  - ID: clan_icon_6
+    Sprite: {fileID: 21300000, guid: c17bd0d39b34e6d43aade30cb80b6e1c, type: 2}
+  - ID: i7
+    Sprite: {fileID: 21300000, guid: 4b48c17de7469424f8cf6faa377a16e4, type: 2}
+  - ID: i8
+    Sprite: {fileID: 21300000, guid: 1f4d046b946a9774f817447876580f37, type: 2}
+  - ID: i9
+    Sprite: {fileID: 21300000, guid: efa54cffd8bddf54e92d8da5aea65601, type: 2}
+  - ID: i10
+    Sprite: {fileID: 21300000, guid: 9d96cdee2733a1c4e8ec20b8fa012f13, type: 2}
+  - ID: 11
+    Sprite: {fileID: 21300000, guid: 9c5ad5dea5add4349b131f6bfdbb753f, type: 2}
+  - ID: 12
+    Sprite: {fileID: 21300000, guid: 7d3972b17c7010e41b1c7599afda8c13, type: 2}
+  - ID: 13
+    Sprite: {fileID: 21300000, guid: 1ddd82643df17cc44bd8726a2b4397da, type: 2}
+  - ID: 14
+    Sprite: {fileID: 21300000, guid: a40805fc5f2c74145b23f41a944b617b, type: 2}
+  - ID: 15
+    Sprite: {fileID: 21300000, guid: f352862da404fbf47b4db2f5f849f961, type: 2}
+  - ID: 16
+    Sprite: {fileID: 21300000, guid: 56ee34de6304e764f893ee4747eac168, type: 2}
+  - ID: 17
+    Sprite: {fileID: 21300000, guid: 1667721b61a4b1a4eb20a0ac202ef70c, type: 2}
+  - ID: 18
+    Sprite: {fileID: 21300000, guid: be822975ce9f6924abce87f474633b6b, type: 2}
+  - ID: 19
+    Sprite: {fileID: 21300000, guid: 25c35c8a5cbec6f4b83aa25fe4e0343f, type: 2}
+  - ID: 20
+    Sprite: {fileID: 21300000, guid: bd75865468626eb47b3349d78736cb68, type: 2}
+  - ID: 21
+    Sprite: {fileID: 21300000, guid: 53838a549c3c1cd4ba63dd127772d9e3, type: 2}
+  - ID: 22
+    Sprite: {fileID: 21300000, guid: e29429d1b14dd4b40b811d259d9550a9, type: 2}
+  - ID: 23
+    Sprite: {fileID: 21300000, guid: 7d38f3a9fb456b842a1c1b9ae2d98f61, type: 2}
+  - ID: 24
+    Sprite: {fileID: 21300000, guid: da499da16e4619e44975f9183200a362, type: 2}
+  - ID: 25
+    Sprite: {fileID: 21300000, guid: bb9deeff866731d4ca7dae0a93b4d68e, type: 2}
+  - ID: 26
+    Sprite: {fileID: 21300000, guid: 61c0fea9a04fec54a95a1a138c495924, type: 2}
+  - ID: 27
+    Sprite: {fileID: 21300000, guid: 3cfe7186017e85a45bd6ab1e53d1955c, type: 2}
+  - ID: 28
+    Sprite: {fileID: 21300000, guid: cc8bdf0d66207fb4f8e66e4364884e5e, type: 2}
+  - ID: 29
+    Sprite: {fileID: 21300000, guid: c37f2743a3dbf7444804c53ed15a1513, type: 2}
+  - ID: 30
+    Sprite: {fileID: 21300000, guid: af8a782429f98da408057f6836e16b79, type: 2}
+  - ID: 31
+    Sprite: {fileID: 21300000, guid: d95f1afa0a3ca7b41a5db3fa4999f55a, type: 2}
+  - ID: 32
+    Sprite: {fileID: 21300000, guid: 9a08272a3301d2e4196ea9eb16062026, type: 2}
+  - ID: 33
+    Sprite: {fileID: 21300000, guid: fcea4b46b75c2e54bbee6439bb66b6e9, type: 2}
+  - ID: 34
+    Sprite: {fileID: 21300000, guid: 42f8766752e7e8c49a7d1378f7f86881, type: 2}
+  - ID: 35
+    Sprite: {fileID: 21300000, guid: 3433be07742729e42bf23d5f0b1a546a, type: 2}
+  DefaultAvatar: {fileID: 21300000, guid: c182ffde78571ef40a3e44bc423fa000, type: 2}
+  DisplayMode: 0
+  Backgrounds:
+  - ID: background1
+    Sprite: {fileID: 0}
+  - ID: background2
+    Sprite: {fileID: 0}
+  - ID: background3
+    Sprite: {fileID: 0}
+  - ID: background4
+    Sprite: {fileID: 0}
+  - ID: background5
+    Sprite: {fileID: 0}
+  - ID: background6
+    Sprite: {fileID: 0}
+  - ID: back7
+    Sprite: {fileID: 0}
+  - ID: back8
+    Sprite: {fileID: 0}
+  - ID: back9
+    Sprite: {fileID: 0}
+  - ID: back10
+    Sprite: {fileID: 0}
+  - ID: back11
+    Sprite: {fileID: 0}
+  Foregrounds:
+  - ID: foreground1
+    Sprite: {fileID: 21300000, guid: 398f90dc4686708449f4d3e067a418e3, type: 2}
+  - ID: foreground2
+    Sprite: {fileID: 21300000, guid: 357929dc3c750cc4d970376de81470c3, type: 2}
+  - ID: foreground3
+    Sprite: {fileID: 21300000, guid: 44e38bc6ca5cf2e40b5a205cda80ebd2, type: 2}
+  - ID: foreground4
+    Sprite: {fileID: 21300000, guid: 76e71e5672d560b44ae2a0c939b89f95, type: 2}
+  - ID: foreground5
+    Sprite: {fileID: 21300000, guid: 6123247ddc1fa304c8a35aadd02ec6fd, type: 2}
+  - ID: for6
+    Sprite: {fileID: 0}
+  - ID: for7
+    Sprite: {fileID: 0}
+  - ID: for8
+    Sprite: {fileID: 0}
+  - ID: for9
+    Sprite: {fileID: 0}
+  - ID: for10
+    Sprite: {fileID: 0}
+  - ID: for11
+    Sprite: {fileID: 0}
+  - ID: for12
+    Sprite: {fileID: 0}
+  - ID: for13
+    Sprite: {fileID: 0}
+  Emblems:
+  - ID: emblem1
+    Sprite: {fileID: 0}
+  - ID: emblem2
+    Sprite: {fileID: 0}
+  - ID: emblem3
+    Sprite: {fileID: 0}
+  - ID: emblem4
+    Sprite: {fileID: 0}
+  - ID: emblem5
+    Sprite: {fileID: 0}
+  - ID: emblem6
+    Sprite: {fileID: 0}
+  - ID: emb7
+    Sprite: {fileID: 0}
+  - ID: emb8
+    Sprite: {fileID: 0}
+  - ID: emb9
+    Sprite: {fileID: 0}
+  - ID: emb10
+    Sprite: {fileID: 0}
+  - ID: emb11
+    Sprite: {fileID: 0}
+  - ID: emb12
+    Sprite: {fileID: 0}
+  - ID: emb13
+    Sprite: {fileID: 0}
+  - ID: emb14
+    Sprite: {fileID: 0}
+  - ID: emb15
+    Sprite: {fileID: 0}
+  - ID: emb16
+    Sprite: {fileID: 0}
+  - ID: emb17
+    Sprite: {fileID: 0}
+  - ID: emb18
+    Sprite: {fileID: 0}
+  ColorsToSet:
+  - {r: 1, g: 0, b: 0, a: 1}
+  - {r: 0.7459785, g: 1, b: 0, a: 1}
+  - {r: 0, g: 1, b: 0.8104148, a: 1}
+  - {r: 0.45882368, g: 0, b: 1, a: 1}
+  - {r: 0.8615127, g: 0.5235849, b: 1, a: 1}
+  - {r: 1, g: 0, b: 0.7671118, a: 1}
+  - {r: 1, g: 0.25206688, b: 0, a: 1}
+  - {r: 1, g: 0.93701136, b: 0, a: 1}
+  - {r: 0, g: 1, b: 0.22968578, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.16037738, g: 0.16037738, b: 0.16037738, a: 1}
+  - {r: 0.254717, g: 0, b: 0, a: 1}
+  - {r: 0.028410628, g: 0.1792453, b: 0, a: 1}
+  - {r: 0, g: 0.2902291, b: 0.31132078, a: 1}
+  - {r: 0.064778745, g: 0, b: 0.16037738, a: 1}
+  - {r: 0.2735849, g: 0.009033469, b: 0.24133392, a: 1}
+  - {r: 0.2924528, g: 0.105509594, b: 0.0041384757, a: 1}
+  - {r: 0.26415092, g: 0.22854525, b: 0.013705945, a: 1}
+  - {r: 0.13153027, g: 0.2830189, b: 0.009344969, a: 1}
+  - {r: 0.056232322, g: 0, b: 0.3490566, a: 1}

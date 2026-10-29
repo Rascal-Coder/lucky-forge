@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e05598a98d0db6d9724b7bd0a75a8f83, type: 3}
+  m_Name: SwordLegend
+  m_EditorClassIdentifier:
+  skillicon:
+  - {fileID: 21300000, guid: 025350e94f8d56e48967974f3bb02a78, type: 2}
+  - {fileID: 21300000, guid: 1047acaecf2234f498fd815945c90b9a, type: 2}
+  skillName:
+  - SwordLegend
+  - SwordLegend2
+  requiredLevel: 0100000008000000
+  triggerByAttack: 0
+  cooldown: 8
+  startDamagePercent: 210
+  commanderforINFO: {fileID: 0}

@@ -1,0 +1,63 @@
+# Unity generated state (keep Assets, Packages, ProjectSettings and .meta files)
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Bb]uild/
+/[Bb]uilds/
+/[Rr]ecordings/
+/[Mm]emoryCaptures/
+
+# Isolated verification runs, local profiles, screenshots and machine-only reports
+/Verification/
+/RecoveryNotes/project-status.json
+/RecoveryNotes/current-progress.txt
+*.es3
+*.es3.bac
+*.es3.tmp
+
+# IDE-generated files
+/.vs/
+/.idea/
+/.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.opendb
+*.VC.db
+
+# Local signing credentials and environment files
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+*.pfx
+*.p12
+
+# Original packaged clients and raw reverse-engineering exports are kept separately
+*.apk
+*.xapk
+*.apks
+*.aab
+/Raw/
+/RawArtifacts/
+/Reverse/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+/Assets/OfflineRecovery/Generated/
+/Assets/OfflineRecovery/Generated.meta
+*.pdb
+*.mdb

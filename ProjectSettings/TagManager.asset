@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Ground
+  - Kasiyerler
+  - AramaPoz
+  - Calisan
+  - Node
+  - Kuruldu
+  - FxTemporaire
+  - enemy1
+  - Shield
+  - Enemy
+  - Death
+  - Siparis
+  - Sira
+  - Castle
+  - iceYer
+  - Clan
+  - CanvasMain
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Yol
+  - Obstacle
+  - NoPost
+  - Performans
+  - Yer
+  - EnemyWall
+  - Enemy
+  - Death
+  - Projectile
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: ground
+    uniqueID: 1310003073
+    locked: 0
+  m_RenderingLayers:
+  - Default

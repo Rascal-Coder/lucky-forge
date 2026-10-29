@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e137ba979b7a205243e9e1459ab6ffe9, type: 3}
+  m_Name: Boot1
+  m_EditorClassIdentifier:
+  gearName: 0
+  slot: 3
+  type: 0
+  icon: {fileID: 21300000, guid: a7e291c0650f2ae45a7b61ae3a607bf3, type: 2}
+  sloticon: {fileID: 21300000, guid: cd6dd0f1c5943984e8a3becd793b8eac, type: 2}
+  baseAttackRaritys: 02000000000000000900000000000000230000000000000050000000000000006d00000000000000
+  perks:
+  - stat: CommonAttackArtisi
+    value: 10
+  - stat: WandAttackArtisi
+    value: 20
+  - stat: MaceATKSpeedArtisi
+    value: 10
+  - stat: AlevHasariArtisi
+    value: 20
+  - stat: StunOlanDusmanlarSaldiriArtisi
+    value: 20

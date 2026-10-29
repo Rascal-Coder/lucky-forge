@@ -1,0 +1,483 @@
+{
+  "original_package": "com.medu.luckyforge.idle.tdgame 1.49.9(82)",
+  "original_xapk_sha256": "01d8342a7ce56502102cd9692d99dc59a39bf24c2696f1fa53dd6a36f57ee15e",
+  "original_arm64_sha256": "20443ec6846e3b7b36ff1e48b43986d5703d74ad356c060322cff209137469c4",
+  "evidence_kind": "Static original ARM64 bytes/metadata/scene bindings, corroborated separately by restored Unity runtime tests; not execution of original APK.",
+  "selected_latest_methods": [
+    {
+      "type": "CommanderMissionManager",
+      "signature": "private void Start()",
+      "rva": "0x21dfc3c"
+    },
+    {
+      "type": "CommanderMissionManager",
+      "signature": "private void OnEnable()",
+      "rva": "0x21e1b34"
+    },
+    {
+      "type": "CommanderMissionManager",
+      "signature": "private void InitializeMissionsIfEmpty()",
+      "rva": "0x21dfcf4"
+    },
+    {
+      "type": "CommanderMissionManager",
+      "signature": "public void CheckAllMissions()",
+      "rva": "0x21e1e18"
+    },
+    {
+      "type": "CommanderMissionManager",
+      "signature": "private void GiveReward(CommanderMission mission)",
+      "rva": "0x21e22bc"
+    },
+    {
+      "type": "CommanderMissionManager",
+      "signature": "private void Update()",
+      "rva": "0x21e25e0"
+    },
+    {
+      "type": "CommanderMissionUI",
+      "signature": "public void SetupUI(List<CommanderMission> missions, CommanderMissionManager manager, ref bool uiInitialized)",
+      "rva": "0x21e19a0"
+    },
+    {
+      "type": "CommanderMissionUI",
+      "signature": "public void RefreshAll()",
+      "rva": "0x21e27f4"
+    },
+    {
+      "type": "CommanderMissionUI",
+      "signature": "public void ResetPage()",
+      "rva": "0x21e1dbc"
+    },
+    {
+      "type": "CommanderMissionUI",
+      "signature": "private void Start()",
+      "rva": "0x21e2924"
+    },
+    {
+      "type": "CommanderMissionUI",
+      "signature": "public void UpdateMissionStatus(CommanderMission mission)",
+      "rva": "0x21e249c"
+    },
+    {
+      "type": "CommanderMissionUI",
+      "signature": "public void Close()",
+      "rva": "0x21e1ce8"
+    },
+    {
+      "type": "CommanderMissionUI",
+      "signature": "public void Open()",
+      "rva": "0x21e29b8"
+    },
+    {
+      "type": "MissionUIItem",
+      "signature": "public void Setup(CommanderMission mission, CommanderMissionManager manager)",
+      "rva": "0x20122c4"
+    },
+    {
+      "type": "MissionUIItem",
+      "signature": "private void CreateCommanderIcons()",
+      "rva": "0x20123fc"
+    },
+    {
+      "type": "MissionUIItem",
+      "signature": "public void Refresh()",
+      "rva": "0x20125e0"
+    },
+    {
+      "type": "DropChanceKarts",
+      "signature": "private void Start()",
+      "rva": "0x21fd874"
+    },
+    {
+      "type": "DropChanceKarts",
+      "signature": "private void OnEnable()",
+      "rva": "0x21fd93c"
+    },
+    {
+      "type": "DropChanceKarts",
+      "signature": "private void ChangeLevel(int lvl)",
+      "rva": "0x21fda28"
+    },
+    {
+      "type": "DropChanceKarts",
+      "signature": "public void SagaSola(int nereye)",
+      "rva": "0x21fe1fc"
+    },
+    {
+      "type": "DropChanceKarts",
+      "signature": "private void Update()",
+      "rva": "0x21fe2c4"
+    },
+    {
+      "type": "DropChanceKarts",
+      "signature": "public void closeit()",
+      "rva": "0x21fe348"
+    },
+    {
+      "type": "DropChanceKarts",
+      "signature": "public void Openit()",
+      "rva": "0x21fe410"
+    },
+    {
+      "type": "DropChanceTalentShow",
+      "signature": "private void Start()",
+      "rva": "0x21fe4e0"
+    },
+    {
+      "type": "DropChanceTalentShow",
+      "signature": "private void OnEnable()",
+      "rva": "0x21fe6e8"
+    },
+    {
+      "type": "DropChanceTalentShow",
+      "signature": "private void ChangeLevel(int lvl)",
+      "rva": "0x21fe7d4"
+    },
+    {
+      "type": "DropChanceTalentShow",
+      "signature": "public void SagaSola(int nereye)",
+      "rva": "0x21fea9c"
+    },
+    {
+      "type": "DropChanceTalentShow",
+      "signature": "private void Update()",
+      "rva": "0x21feb64"
+    },
+    {
+      "type": "DropChanceTalentShow",
+      "signature": "public void closeit()",
+      "rva": "0x21febec"
+    },
+    {
+      "type": "DropChanceTalentShow",
+      "signature": "public void Openit()",
+      "rva": "0x21fecb4"
+    },
+    {
+      "type": "DropChanceTalentShow",
+      "signature": "public void Close()",
+      "rva": "0x21febe8"
+    },
+    {
+      "type": "CurrencyCollectedUi",
+      "signature": "private void OnEnable()",
+      "rva": "0x21eb384"
+    },
+    {
+      "type": "CurrencyCollectedUi",
+      "signature": "private void Update()",
+      "rva": "0x21eb38c"
+    },
+    {
+      "type": "CurrencyCollectedUi",
+      "signature": "public void GiveRewardUI(double coin, int weapon, int mistik, int crystal, int enerji, int talent, int passstar, int zar, bool gecisodulu = false)",
+      "rva": "0x21eb3b8"
+    },
+    {
+      "type": "CurrencyCollectedUi",
+      "signature": "private IEnumerator EnableAnimatorsWithDelay(Animator[] animators, bool[] enables, float delay)",
+      "rva": "0x21ec0e8"
+    },
+    {
+      "type": "CurrencyCollectedUi",
+      "signature": "public void CloseRewardUi()",
+      "rva": "0x21ec1a8"
+    },
+    {
+      "type": "infoCurrencyShow",
+      "signature": "public void Show(int kac, Vector3 pos)",
+      "rva": "0x22258ac"
+    },
+    {
+      "type": "infoCurrencyShow",
+      "signature": "private Vector3 Pozisyon()",
+      "rva": "0x2226270"
+    },
+    {
+      "type": "infoCurrencyShow",
+      "signature": "public void closeit()",
+      "rva": "0x22262cc"
+    },
+    {
+      "type": "infoCurrencyShow",
+      "signature": "private string adet(int Num)",
+      "rva": "0x2225a20"
+    },
+    {
+      "type": "Lang",
+      "signature": "public static string GetInfoBilgi(int Num)",
+      "rva": "0x2243764"
+    },
+    {
+      "type": "EnergyRightsCanvas",
+      "signature": "Awake",
+      "rva": "0x2205cec"
+    },
+    {
+      "type": "EnergyRightsCanvas",
+      "signature": "OnEnable",
+      "rva": "0x2205f2c"
+    },
+    {
+      "type": "EnergyRightsCanvas",
+      "signature": "RefreshRights",
+      "rva": "0x2206090"
+    },
+    {
+      "type": "EnergyRightsCanvas",
+      "signature": "UpdateUI",
+      "rva": "0x220644c"
+    },
+    {
+      "type": "EnergyRightsCanvas",
+      "signature": "CrystalHarcandi",
+      "rva": "0x2206b78"
+    },
+    {
+      "type": "EnergyRightsCanvas",
+      "signature": "OpenClose",
+      "rva": "0x2206e64"
+    },
+    {
+      "type": "EnergyRightsCanvas",
+      "signature": "Close",
+      "rva": "0x2206f50"
+    },
+    {
+      "type": "CraftAndSell",
+      "signature": "SkillSet",
+      "rva": "0x21e5d8c",
+      "instruction_count": 132
+    },
+    {
+      "type": "CraftAndSell",
+      "signature": "OpenSkillText",
+      "rva": "0x21e5f9c",
+      "instruction_count": 306
+    }
+  ],
+  "verification": {
+    "passed": true,
+    "checks": 1120,
+    "modules": [
+      {
+        "name": "persistence",
+        "passed": true,
+        "checks": 19,
+        "failures": []
+      },
+      {
+        "name": "forge-merge",
+        "passed": true,
+        "checks": 15,
+        "failures": []
+      },
+      {
+        "name": "slots",
+        "passed": true,
+        "checks": 14,
+        "failures": []
+      },
+      {
+        "name": "craft-sell",
+        "passed": true,
+        "checks": 11,
+        "failures": []
+      },
+      {
+        "name": "rogue-choice",
+        "passed": true,
+        "checks": 11,
+        "failures": []
+      },
+      {
+        "name": "equipment-growth",
+        "passed": true,
+        "checks": 21,
+        "failures": []
+      },
+      {
+        "name": "equipment-upgrade",
+        "passed": true,
+        "checks": 20,
+        "failures": []
+      },
+      {
+        "name": "talents",
+        "passed": true,
+        "checks": 23,
+        "failures": []
+      },
+      {
+        "name": "home-stage",
+        "passed": true,
+        "checks": 22,
+        "failures": []
+      },
+      {
+        "name": "hero-wall",
+        "passed": true,
+        "checks": 34,
+        "failures": []
+      },
+      {
+        "name": "unlock-gates",
+        "passed": true,
+        "checks": 12,
+        "failures": []
+      },
+      {
+        "name": "research",
+        "passed": true,
+        "checks": 31,
+        "failures": []
+      },
+      {
+        "name": "pets",
+        "passed": true,
+        "checks": 19,
+        "failures": []
+      },
+      {
+        "name": "lucky-page",
+        "passed": true,
+        "checks": 12,
+        "failures": []
+      },
+      {
+        "name": "daily-tasks",
+        "passed": true,
+        "checks": 40,
+        "failures": []
+      },
+      {
+        "name": "battle-pause",
+        "passed": true,
+        "checks": 9,
+        "failures": []
+      },
+      {
+        "name": "result-damage",
+        "passed": true,
+        "checks": 23,
+        "failures": []
+      },
+      {
+        "name": "achievements",
+        "passed": true,
+        "checks": 91,
+        "failures": []
+      },
+      {
+        "name": "home-forge",
+        "passed": true,
+        "checks": 27,
+        "failures": []
+      },
+      {
+        "name": "local-settings",
+        "passed": true,
+        "checks": 26,
+        "failures": []
+      },
+      {
+        "name": "wave-rewards",
+        "passed": true,
+        "checks": 77,
+        "failures": []
+      },
+      {
+        "name": "welcome-lifecycle",
+        "passed": true,
+        "checks": 13,
+        "failures": []
+      },
+      {
+        "name": "growth-navigation",
+        "passed": true,
+        "checks": 40,
+        "failures": []
+      },
+      {
+        "name": "main-loop",
+        "passed": true,
+        "checks": 29,
+        "failures": []
+      },
+      {
+        "name": "camera-input",
+        "passed": true,
+        "checks": 18,
+        "failures": []
+      },
+      {
+        "name": "page-navigation",
+        "passed": true,
+        "checks": 19,
+        "failures": []
+      },
+      {
+        "name": "hourly-rewards",
+        "passed": true,
+        "checks": 39,
+        "failures": []
+      },
+      {
+        "name": "offline-rewards",
+        "passed": true,
+        "checks": 51,
+        "failures": []
+      },
+      {
+        "name": "dungeon",
+        "passed": true,
+        "checks": 37,
+        "failures": []
+      },
+      {
+        "name": "task-locks",
+        "passed": true,
+        "checks": 24,
+        "failures": []
+      },
+      {
+        "name": "energy-rights",
+        "passed": true,
+        "checks": 28,
+        "failures": []
+      },
+      {
+        "name": "commander-missions",
+        "passed": true,
+        "checks": 71,
+        "failures": []
+      },
+      {
+        "name": "weapon-information",
+        "passed": true,
+        "checks": 28,
+        "failures": []
+      },
+      {
+        "name": "information-panels",
+        "passed": true,
+        "checks": 166,
+        "failures": []
+      }
+    ]
+  },
+  "additional_actual_checks": {
+    "energy_buttons": 12,
+    "separate_process_restart": 6,
+    "original_reward_animation": 16
+  },
+  "audio_header_repair": {
+    "files": 86,
+    "whole_file_exact_original_decodes": 68,
+    "other_original_decode_comparisons": 18,
+    "pcm_changed": false,
+    "meta_changed": false
+  },
+  "limits": "Not complete clone. Fixtures use isolated explicit inputs; player sequence uses normal original callbacks and earned progress. No blanket physical GUI claim."
+}

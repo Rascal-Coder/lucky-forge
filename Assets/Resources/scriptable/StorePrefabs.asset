@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2e4763eff87460943fc5d7e36cd762a, type: 3}
+  m_Name: StorePrefabs
+  m_EditorClassIdentifier:
+  StoreWindows: {fileID: 1709254077376921, guid: dafd695fd7ba4054398b45979ed9d69d, type: 2}
+  StoreTitle: {fileID: 1709254077376921, guid: 337c5441033f35b4d8fcc579c079b9fd, type: 2}
+  StoreItem: {fileID: 1709254077376921, guid: b1f4f88f4d2ca834587c1bb0b8fd75f0, type: 2}
+  PurchaseButton: {fileID: 1709254077376921, guid: bbdcf9af3e9f4114da3dec35d7c77822, type: 2}
+  SpecialOfferFrame: {fileID: 1709254077376921, guid: 2d561ee6b989cb349949764ee4dccc2b, type: 2}
+  SpecialOfferWindow: {fileID: 1709254077376921, guid: d007d8aae76a903449d9f2e7b74366d6, type: 2}

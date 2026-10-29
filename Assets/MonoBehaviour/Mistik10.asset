@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dadf72a1b0a0a9ed62e2989289ab42ff, type: 3}
+  m_Name: Mistik10
+  m_EditorClassIdentifier:
+  skillicon:
+  - {fileID: 21300000, guid: 3c6a89d3cddc0024c9284acf87d9b115, type: 2}
+  - {fileID: 21300000, guid: f87d85ffefa030c4e8cfd9d95be4807d, type: 2}
+  - {fileID: 21300000, guid: 78c2a0702ab1a1640b9c615f3c7d208c, type: 2}
+  skillName:
+  - Mistik10
+  - Mistik10A
+  - Mistik10B
+  requiredLevel: 010000000800000010000000
+  triggerByAttack: 0
+  cooldown: 8
+  startDamagePercent: 140
+  commanderforINFO: {fileID: 0}

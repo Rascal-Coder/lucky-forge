@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9651998adb589cf32d72ca1565edc266, type: 3}
+  m_Name: FGApplovinMaxSettings
+  m_EditorClassIdentifier:
+  moduleInfo:
+    Id: fg_applovin_max
+    Name: Applovin Max
+    Version: 3.4.0.1
+    LogColor: '#E0FF8D'
+    PackageUrl: https://gitlab.com/fungames-sdk/monetization/ads/mediation/fg_applovin_max/-/raw/3.4.0.1/fg_applovin_max-3.4.0.1.unitypackage
+    HasIssue: 0
+    IsDeprecated: 0
+    IsBeta: 0
+    Plugins:
+    - AppLovin-MAX-Unity-Plugin-8.2.1-Android-13.2.0-iOS-13.2.0.unitypackage
+    Dependencies:
+    - fg_core-3.4.0.0
+    - fg_mediation-3.4.0.0
+    - fg_firebase-3.4.0.0
+    - fg_analytics-3.4.0.0
+    - fg_user_consent-3.4.0.0
+    - fg_remote_config-3.4.0.0
+    - fg_tools-3.4.0.0
+  LogColor: {r: 0.8784314, g: 1, b: 0.5529412, a: 1}
+  logEnabled: 0
+  maxSdkKey: -x3h7mcZ5EdJJCd0iDab_rNf-6t9bsentb_ilJcaZ_ORIGB0P4reTeRrMeRe39-EAu-F6Bqcgah9fv-gSdoO1U
+  iOSInterstitialAdUnitId:
+  iOSRewardedAdUnitId:
+  iOSBannerAdUnitId:
+  iOSAppOpenAdUnitId:
+  iOSMrecAdUnitId:
+  androidInterstitialAdUnitId: 1246341056b08173
+  androidRewardedAdUnitId: 905510e064fb5236
+  androidBannerAdUnitId: 0c31ff728fc2dc4c
+  androidAppOpenAdUnitId:
+  androidMrecAdUnitId:
+  amazonInterstitialAdUnitId:
+  amazonRewardedAdUnitId:
+  amazonBannerAdUnitId:
+  amazonAppOpenAdUnitId:
+  amazonMrecAdUnitId:
+  BannerBackgroundColor: {r: 0, g: 0, b: 0, a: 1}
+  BannerPosition: 7

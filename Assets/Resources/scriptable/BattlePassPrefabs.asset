@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 608a69696469083c17fcf39627c8daae, type: 3}
+  m_Name: BattlePassPrefabs
+  m_EditorClassIdentifier:
+  BattlePassFrame: {fileID: 1709254077376921, guid: c21f8a25a530c4f45a295af99fdb6271, type: 2}
+  BattlePassWindow: {fileID: 1709254077376921, guid: a3cd88f0dcb874243a217b47e8d1ee2c, type: 2}
+  RewardDrawer: {fileID: 1709254077376921, guid: a4f32719b024a724a8f85e534f0f9bc6, type: 2}
+  LevelDrawer: {fileID: 1709254077376921, guid: e192017f5d4f42d44ad119e2bccbf61f, type: 2}
+  TicketSlot: {fileID: 1709254077376921, guid: c0e9df746634dfc41ab46835f2914ad2, type: 2}
+  TaskSlot: {fileID: 1709254077376921, guid: 26b0a247942146645a90c09eb0a1eb24, type: 2}
+  BankSlot: {fileID: 1709254077376921, guid: 998af01af61fd5645a8b29ae4ee308b6, type: 2}

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 075b08e041ee996dff1d9956beb70d24, type: 3}
+  m_Name: FGMainSettings
+  m_EditorClassIdentifier:
+  moduleInfo:
+    Id: fg_core
+    Name: FunGames SDK
+    Version: 3.4.0.3
+    LogColor: '#000000'
+    PackageUrl: https://gitlab.com/fungames-sdk/core/fg_core/-/raw/3.4.0.3/fg_core-3.4.0.3.unitypackage
+    HasIssue: 0
+    IsDeprecated: 0
+    IsBeta: 0
+    Plugins: []
+    Dependencies:
+    - fg_tools-3.4.0.2
+    - fg_analytics-3.4.0.0
+    - fg_remote_config-3.4.0.0
+  LogColor: {r: 0, g: 0, b: 0, a: 1}
+  logEnabled: 0
+  ApiKey: be075b1fa442be0addff102e229fe99c
+  LogLevel: 0
+  AmazonStoreSetup: 0
+  QaModeInEditor: 0

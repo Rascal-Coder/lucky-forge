@@ -1,0 +1,914 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b546e966e67103a40ce818efcc9ca37a, type: 3}
+  m_Name: Stage8
+  m_EditorClassIdentifier:
+  SiegeName: Tier
+  EnemysHealth: 2
+  EnemysAttack: 1
+  waves:
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 20
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 20
+    - enemyTag: enemyYildiz
+      count: 10
+    - enemyTag: enemyBullet
+      count: 10
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 20
+    - enemyTag: enemyYildiz
+      count: 10
+    - enemyTag: enemyBullet
+      count: 10
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyArrow
+      count: 20
+    - enemyTag: enemyYildiz
+      count: 10
+    - enemyTag: enemyBullet
+      count: 10
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 20
+    - enemyTag: enemyYildiz
+      count: 10
+    - enemyTag: enemyAltigen
+      count: 10
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 20
+    - enemyTag: enemyYildiz
+      count: 10
+    - enemyTag: enemyBullet
+      count: 10
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 20
+    - enemyTag: enemyYildiz
+      count: 10
+    - enemyTag: enemyBullet
+      count: 10
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 20
+    - enemyTag: enemyArrow
+      count: 10
+    - enemyTag: enemyBullet
+      count: 10
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 20
+    - enemyTag: enemyYildiz
+      count: 10
+    - enemyTag: enemyBullet
+      count: 10
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 25
+    - enemyTag: enemyYildiz
+      count: 12
+    - enemyTag: enemyBullet
+      count: 12
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 25
+    - enemyTag: enemyYildiz
+      count: 12
+    - enemyTag: enemyBullet
+      count: 12
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 25
+    - enemyTag: enemyYildiz
+      count: 12
+    - enemyTag: enemyBullet
+      count: 12
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 25
+    - enemyTag: enemyAltigen
+      count: 12
+    - enemyTag: enemyBullet
+      count: 12
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 25
+    - enemyTag: enemyArrow
+      count: 12
+    - enemyTag: enemyBullet
+      count: 12
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 25
+    - enemyTag: enemyYildiz
+      count: 12
+    - enemyTag: enemyBullet
+      count: 12
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 25
+    - enemyTag: enemyYildiz
+      count: 12
+    - enemyTag: enemyBullet
+      count: 12
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 25
+    - enemyTag: enemyYildiz
+      count: 12
+    - enemyTag: enemyBullet
+      count: 12
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 25
+    - enemyTag: enemyYildiz
+      count: 12
+    - enemyTag: enemyBullet
+      count: 12
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 25
+    - enemyTag: enemyYildiz
+      count: 12
+    - enemyTag: enemyArrow
+      count: 12
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyAltigen
+      count: 25
+    - enemyTag: enemyYildiz
+      count: 12
+    - enemyTag: enemyBullet
+      count: 12
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 25
+    - enemyTag: enemyYildiz
+      count: 12
+    - enemyTag: enemyBullet
+      count: 12
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 25
+    - enemyTag: enemyYildiz
+      count: 12
+    - enemyTag: enemyBullet
+      count: 12
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 25
+    - enemyTag: enemyYildiz
+      count: 12
+    - enemyTag: enemyBullet
+      count: 12
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 25
+    - enemyTag: enemyYildiz
+      count: 12
+    - enemyTag: enemyBullet
+      count: 12
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 30
+    - enemyTag: enemyArrow
+      count: 15
+    - enemyTag: enemyBullet
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 30
+    - enemyTag: enemyYildiz
+      count: 15
+    - enemyTag: enemyAltigen
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 30
+    - enemyTag: enemyYildiz
+      count: 15
+    - enemyTag: enemyBullet
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 30
+    - enemyTag: enemyYildiz
+      count: 15
+    - enemyTag: enemyBullet
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 30
+    - enemyTag: enemyYildiz
+      count: 15
+    - enemyTag: enemyBullet
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyArrow
+      count: 15
+    - enemyTag: enemyYildiz
+      count: 15
+    - enemyTag: enemyBullet
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 30
+    - enemyTag: enemyYildiz
+      count: 15
+    - enemyTag: enemyBullet
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 30
+    - enemyTag: enemyYildiz
+      count: 15
+    - enemyTag: enemyBullet
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 30
+    - enemyTag: enemyAltigen
+      count: 15
+    - enemyTag: enemyBullet
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 30
+    - enemyTag: enemyYildiz
+      count: 15
+    - enemyTag: enemyArrow
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 30
+    - enemyTag: enemyYildiz
+      count: 15
+    - enemyTag: enemyBullet
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 30
+    - enemyTag: enemyYildiz
+      count: 15
+    - enemyTag: enemyBullet
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 30
+    - enemyTag: enemyYildiz
+      count: 15
+    - enemyTag: enemyBullet
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 30
+    - enemyTag: enemyYildiz
+      count: 15
+    - enemyTag: enemyBullet
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 30
+    - enemyTag: enemyYildiz
+      count: 15
+    - enemyTag: enemyAltigen
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 30
+    - enemyTag: enemyArrow
+      count: 15
+    - enemyTag: enemyBullet
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 35
+    - enemyTag: enemyYildiz
+      count: 18
+    - enemyTag: enemyBullet
+      count: 18
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 35
+    - enemyTag: enemyYildiz
+      count: 18
+    - enemyTag: enemyBullet
+      count: 18
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 35
+    - enemyTag: enemyAltigen
+      count: 18
+    - enemyTag: enemyBullet
+      count: 18
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 35
+    - enemyTag: enemyYildiz
+      count: 18
+    - enemyTag: enemyBullet
+      count: 18
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 35
+    - enemyTag: enemyYildiz
+      count: 18
+    - enemyTag: enemyArrow
+      count: 18
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 35
+    - enemyTag: enemyYildiz
+      count: 18
+    - enemyTag: enemyBullet
+      count: 18
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 35
+    - enemyTag: enemyYildiz
+      count: 18
+    - enemyTag: enemyAltigen
+      count: 18
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 35
+    - enemyTag: enemyYildiz
+      count: 18
+    - enemyTag: enemyBullet
+      count: 18
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyArrow
+      count: 35
+    - enemyTag: enemyYildiz
+      count: 18
+    - enemyTag: enemyBullet
+      count: 18
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 35
+    - enemyTag: enemyYildiz
+      count: 18
+    - enemyTag: enemyBullet
+      count: 18
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 35
+    - enemyTag: enemyYildiz
+      count: 18
+    - enemyTag: enemyBullet
+      count: 18
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 35
+    - enemyTag: enemyAltigen
+      count: 18
+    - enemyTag: enemyBullet
+      count: 18
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 35
+    - enemyTag: enemyYildiz
+      count: 18
+    - enemyTag: enemyBullet
+      count: 18
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 35
+    - enemyTag: enemyArrow
+      count: 18
+    - enemyTag: enemyBullet
+      count: 18
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 45
+    - enemyTag: enemyYildiz
+      count: 21
+    - enemyTag: enemyBullet
+      count: 21
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 45
+    - enemyTag: enemyYildiz
+      count: 21
+    - enemyTag: enemyBullet
+      count: 21
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 45
+    - enemyTag: enemyYildiz
+      count: 21
+    - enemyTag: enemyAltigen
+      count: 21
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 45
+    - enemyTag: enemyYildiz
+      count: 21
+    - enemyTag: enemyArrow
+      count: 21
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 45
+    - enemyTag: enemyYildiz
+      count: 21
+    - enemyTag: enemyBullet
+      count: 21
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 45
+    - enemyTag: enemyYildiz
+      count: 21
+    - enemyTag: enemyBullet
+      count: 21
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 45
+    - enemyTag: enemyYildiz
+      count: 21
+    - enemyTag: enemyBullet
+      count: 21
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 45
+    - enemyTag: enemyYildiz
+      count: 21
+    - enemyTag: enemyBullet
+      count: 21
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 45
+    - enemyTag: enemyAltigen
+      count: 21
+    - enemyTag: enemyBullet
+      count: 21
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 45
+    - enemyTag: enemyYildiz
+      count: 21
+    - enemyTag: enemyArrow
+      count: 21
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 45
+    - enemyTag: enemyYildiz
+      count: 21
+    - enemyTag: enemyBullet
+      count: 21
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 45
+    - enemyTag: enemyYildiz
+      count: 21
+    - enemyTag: enemyBullet
+      count: 21
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 45
+    - enemyTag: enemyYildiz
+      count: 21
+    - enemyTag: enemyBullet
+      count: 21
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyArrow
+      count: 45
+    - enemyTag: enemyYildiz
+      count: 21
+    - enemyTag: enemyBullet
+      count: 21
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 45
+    - enemyTag: enemyYildiz
+      count: 21
+    - enemyTag: enemyAltigen
+      count: 21
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 45
+    - enemyTag: enemyYildiz
+      count: 21
+    - enemyTag: enemyBullet
+      count: 21
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 45
+    - enemyTag: enemyYildiz
+      count: 21
+    - enemyTag: enemyBullet
+      count: 21
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 45
+    - enemyTag: enemyYildiz
+      count: 21
+    - enemyTag: enemyArrow
+      count: 21
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 45
+    - enemyTag: enemyYildiz
+      count: 21
+    - enemyTag: enemyBullet
+      count: 21
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 45
+    - enemyTag: enemyYildiz
+      count: 21
+    - enemyTag: enemyBullet
+      count: 21
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 45
+    - enemyTag: enemyAltigen
+      count: 21
+    - enemyTag: enemyBullet
+      count: 21
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 45
+    - enemyTag: enemyYildiz
+      count: 21
+    - enemyTag: enemyBullet
+      count: 21
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 45
+    - enemyTag: enemyArrow
+      count: 21
+    - enemyTag: enemyBullet
+      count: 21
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 45
+    - enemyTag: enemyYildiz
+      count: 21
+    - enemyTag: enemyBullet
+      count: 21
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 45
+    - enemyTag: enemyYildiz
+      count: 21
+    - enemyTag: enemyBullet
+      count: 21
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 55
+    - enemyTag: enemyYildiz
+      count: 24
+    - enemyTag: enemyBullet
+      count: 24
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 55
+    - enemyTag: enemyYildiz
+      count: 24
+    - enemyTag: enemyAltigen
+      count: 24
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 55
+    - enemyTag: enemyYildiz
+      count: 24
+    - enemyTag: enemyBullet
+      count: 24
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyArrow
+      count: 35
+    - enemyTag: enemyYildiz
+      count: 24
+    - enemyTag: enemyBullet
+      count: 24
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 55
+    - enemyTag: enemyYildiz
+      count: 24
+    - enemyTag: enemyBullet
+      count: 24
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 55
+    - enemyTag: enemyYildiz
+      count: 24
+    - enemyTag: enemyBullet
+      count: 24
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 55
+    - enemyTag: enemyYildiz
+      count: 24
+    - enemyTag: enemyBullet
+      count: 24
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 55
+    - enemyTag: enemyAltigen
+      count: 24
+    - enemyTag: enemyArrow
+      count: 24
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 55
+    - enemyTag: enemyYildiz
+      count: 24
+    - enemyTag: enemyBullet
+      count: 24
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 55
+    - enemyTag: enemyYildiz
+      count: 24
+    - enemyTag: enemyBullet
+      count: 24
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 65
+    - enemyTag: enemyYildiz
+      count: 24
+    - enemyTag: enemyBullet
+      count: 24
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 65
+    - enemyTag: enemyYildiz
+      count: 24
+    - enemyTag: enemyAltigen
+      count: 24
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 65
+    - enemyTag: enemyArrow
+      count: 24
+    - enemyTag: enemyBullet
+      count: 24
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 65
+    - enemyTag: enemyYildiz
+      count: 24
+    - enemyTag: enemyBullet
+      count: 24
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 65
+    - enemyTag: enemyYildiz
+      count: 24
+    - enemyTag: enemyBullet
+      count: 24
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 65
+    - enemyTag: enemyYildiz
+      count: 24
+    - enemyTag: enemyBullet
+      count: 24
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 65
+    - enemyTag: enemyYildiz
+      count: 24
+    - enemyTag: enemyBullet
+      count: 24
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 65
+    - enemyTag: enemyArrow
+      count: 24
+    - enemyTag: enemyAltigen
+      count: 24
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 70
+    - enemyTag: enemyYildiz
+      count: 35
+    - enemyTag: enemyBullet
+      count: 24
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 65
+    - enemyTag: enemyYildiz
+      count: 33
+    - enemyTag: enemyBullet
+      count: 24
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyYatikKare
+      count: 65
+    - enemyTag: enemyYildiz
+      count: 50
+    - enemyTag: enemyArrow
+      count: 35
+    bossTag:
+    hasBoss: 0

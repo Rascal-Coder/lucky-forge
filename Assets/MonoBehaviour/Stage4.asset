@@ -1,0 +1,914 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b546e966e67103a40ce818efcc9ca37a, type: 3}
+  m_Name: Stage4
+  m_EditorClassIdentifier:
+  SiegeName: Tier
+  EnemysHealth: 2
+  EnemysAttack: 1
+  waves:
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 20
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 15
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 15
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 15
+    - enemyTag: enemyArrow
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 15
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 15
+    - enemyTag: enemyArrow
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 15
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 15
+    - enemyTag: enemyArrow
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 15
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyArrow
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 15
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 15
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyArrow
+      count: 15
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 15
+    - enemyTag: enemyArrow
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 15
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 20
+    - enemyTag: enemyKaresari
+      count: 20
+    - enemyTag: enemyYatikKare
+      count: 20
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 20
+    - enemyTag: enemyKaresari
+      count: 20
+    - enemyTag: enemyYatikKare
+      count: 20
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 20
+    - enemyTag: enemyArrow
+      count: 20
+    - enemyTag: enemyYatikKare
+      count: 20
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 20
+    - enemyTag: enemyKaresari
+      count: 20
+    - enemyTag: enemyYatikKare
+      count: 20
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 20
+    - enemyTag: enemyKaresari
+      count: 20
+    - enemyTag: enemyArrow
+      count: 20
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 20
+    - enemyTag: enemyKaresari
+      count: 20
+    - enemyTag: enemyYatikKare
+      count: 20
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 25
+    - enemyTag: enemyKaresari
+      count: 25
+    - enemyTag: enemyYatikKare
+      count: 25
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 25
+    - enemyTag: enemyKaresari
+      count: 25
+    - enemyTag: enemyYatikKare
+      count: 25
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 25
+    - enemyTag: enemyKaresari
+      count: 25
+    - enemyTag: enemyYatikKare
+      count: 25
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyArrow
+      count: 25
+    - enemyTag: enemyKaresari
+      count: 25
+    - enemyTag: enemyYatikKare
+      count: 25
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 25
+    - enemyTag: enemyArrow
+      count: 25
+    - enemyTag: enemyYatikKare
+      count: 25
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 25
+    - enemyTag: enemyKaresari
+      count: 25
+    - enemyTag: enemyYatikKare
+      count: 25
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 25
+    - enemyTag: enemyKaresari
+      count: 25
+    - enemyTag: enemyYatikKare
+      count: 25
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 25
+    - enemyTag: enemyKaresari
+      count: 25
+    - enemyTag: enemyYatikKare
+      count: 25
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 25
+    - enemyTag: enemyKaresari
+      count: 25
+    - enemyTag: enemyYatikKare
+      count: 25
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 25
+    - enemyTag: enemyKaresari
+      count: 25
+    - enemyTag: enemyArrow
+      count: 25
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 25
+    - enemyTag: enemyKaresari
+      count: 25
+    - enemyTag: enemyYatikKare
+      count: 25
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 25
+    - enemyTag: enemyArrow
+      count: 25
+    - enemyTag: enemyYatikKare
+      count: 25
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 25
+    - enemyTag: enemyKaresari
+      count: 25
+    - enemyTag: enemyYatikKare
+      count: 25
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 25
+    - enemyTag: enemyKaresari
+      count: 25
+    - enemyTag: enemyYatikKare
+      count: 25
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 25
+    - enemyTag: enemyArrow
+      count: 25
+    - enemyTag: enemyYatikKare
+      count: 25
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 25
+    - enemyTag: enemyKaresari
+      count: 25
+    - enemyTag: enemyYatikKare
+      count: 25
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 25
+    - enemyTag: enemyKaresari
+      count: 25
+    - enemyTag: enemyYatikKare
+      count: 25
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 25
+    - enemyTag: enemyArrow
+      count: 25
+    - enemyTag: enemyYatikKare
+      count: 25
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 25
+    - enemyTag: enemyKaresari
+      count: 25
+    - enemyTag: enemyYatikKare
+      count: 25
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 40
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 40
+    - enemyTag: enemyArrow
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 40
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 40
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyArrow
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyArrow
+      count: 40
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 40
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 40
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 40
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 40
+    - enemyTag: enemyArrow
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 40
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 40
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 40
+    - enemyTag: enemyArrow
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 40
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 40
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 40
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyArrow
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 40
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 40
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 40
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyArrow
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 40
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 40
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 50
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 50
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyArrow
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyArrow
+      count: 50
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 50
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 50
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 50
+    - enemyTag: enemyAltigen
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 50
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 50
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 50
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyArrow
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 50
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 50
+    - enemyTag: enemyAltigen
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 50
+    - enemyTag: enemyArrow
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 50
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 50
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 50
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 50
+    - enemyTag: enemyAltigen
+      count: 25
+    - enemyTag: enemyArrow
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 50
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 50
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 50
+    - enemyTag: enemyArrow
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 50
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 15
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 55
+    - enemyTag: enemyAltigen
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 20
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 55
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 20
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 55
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 20
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 55
+    - enemyTag: enemyArrow
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 20
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 55
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 20
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 55
+    - enemyTag: enemyArrow
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 20
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 55
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 20
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 55
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 20
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyArrow
+      count: 35
+    - enemyTag: enemyAltigen
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 20
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 55
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 20
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 60
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 20
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 60
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 20
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 60
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 20
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 60
+    - enemyTag: enemyKareBeyaz
+      count: 25
+    - enemyTag: enemyArrow
+      count: 20
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 60
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 20
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 60
+    - enemyTag: enemyKaresari
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 20
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 60
+    - enemyTag: enemyKareBeyaz
+      count: 25
+    - enemyTag: enemyYatikKare
+      count: 20
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 60
+    - enemyTag: enemyAltigen
+      count: 15
+    - enemyTag: enemyYatikKare
+      count: 20
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 60
+    - enemyTag: enemyArrow
+      count: 25
+    - enemyTag: enemyYatikKare
+      count: 20
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 60
+    - enemyTag: enemyArrow
+      count: 25
+    - enemyTag: enemyArrow
+      count: 25
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyKareBeyaz
+      count: 70
+    - enemyTag: enemyKareBeyaz
+      count: 35
+    - enemyTag: enemyYatikKare
+      count: 20
+    bossTag:
+    hasBoss: 0

@@ -1,0 +1,914 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b546e966e67103a40ce818efcc9ca37a, type: 3}
+  m_Name: Stage10
+  m_EditorClassIdentifier:
+  SiegeName: Tier
+  EnemysHealth: 2
+  EnemysAttack: 1
+  waves:
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 20
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyArrow
+      count: 25
+    - enemyTag: enemyKareBeyaz
+      count: 12
+    - enemyTag: enemyElips
+      count: 12
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 25
+    - enemyTag: enemyUcgen
+      count: 12
+    - enemyTag: enemyElips
+      count: 12
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 25
+    - enemyTag: enemyKareBeyaz
+      count: 12
+    - enemyTag: enemyElips
+      count: 12
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 25
+    - enemyTag: enemyArrow
+      count: 12
+    - enemyTag: enemyElips
+      count: 12
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 25
+    - enemyTag: enemyKareBeyaz
+      count: 12
+    - enemyTag: enemyElips
+      count: 12
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 25
+    - enemyTag: enemyKareBeyaz
+      count: 12
+    - enemyTag: enemyElips
+      count: 12
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 25
+    - enemyTag: enemyArrow
+      count: 12
+    - enemyTag: enemyElips
+      count: 12
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 25
+    - enemyTag: enemyUcgen
+      count: 12
+    - enemyTag: enemyElips
+      count: 12
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 25
+    - enemyTag: enemyKareBeyaz
+      count: 12
+    - enemyTag: enemyArrow
+      count: 12
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 25
+    - enemyTag: enemyKareBeyaz
+      count: 12
+    - enemyTag: enemyElips
+      count: 12
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 30
+    - enemyTag: enemyKareBeyaz
+      count: 16
+    - enemyTag: enemyElips
+      count: 16
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 30
+    - enemyTag: enemyArrow
+      count: 16
+    - enemyTag: enemyArrow
+      count: 16
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 30
+    - enemyTag: enemyKareBeyaz
+      count: 16
+    - enemyTag: enemyElips
+      count: 16
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 30
+    - enemyTag: enemyUcgen
+      count: 16
+    - enemyTag: enemyElips
+      count: 16
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 30
+    - enemyTag: enemyKareBeyaz
+      count: 16
+    - enemyTag: enemyElips
+      count: 16
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 30
+    - enemyTag: enemyKareBeyaz
+      count: 16
+    - enemyTag: enemyElips
+      count: 16
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 30
+    - enemyTag: enemyUcgen
+      count: 16
+    - enemyTag: enemyArrow
+      count: 16
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 30
+    - enemyTag: enemyKareBeyaz
+      count: 16
+    - enemyTag: enemyElips
+      count: 16
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 30
+    - enemyTag: enemyKareBeyaz
+      count: 16
+    - enemyTag: enemyElips
+      count: 16
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 30
+    - enemyTag: enemyKareBeyaz
+      count: 16
+    - enemyTag: enemyElips
+      count: 16
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyArrow
+      count: 30
+    - enemyTag: enemyUcgen
+      count: 16
+    - enemyTag: enemyElips
+      count: 16
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 30
+    - enemyTag: enemyKareBeyaz
+      count: 16
+    - enemyTag: enemyElips
+      count: 16
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 30
+    - enemyTag: enemyKareBeyaz
+      count: 16
+    - enemyTag: enemyElips
+      count: 16
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 35
+    - enemyTag: enemyKareBeyaz
+      count: 18
+    - enemyTag: enemyElips
+      count: 18
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 35
+    - enemyTag: enemyUcgen
+      count: 18
+    - enemyTag: enemyElips
+      count: 18
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 35
+    - enemyTag: enemyArrow
+      count: 18
+    - enemyTag: enemyElips
+      count: 18
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 35
+    - enemyTag: enemyKareBeyaz
+      count: 18
+    - enemyTag: enemyElips
+      count: 18
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 35
+    - enemyTag: enemyKareBeyaz
+      count: 18
+    - enemyTag: enemyElips
+      count: 18
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyArrow
+      count: 35
+    - enemyTag: enemyUcgen
+      count: 18
+    - enemyTag: enemyElips
+      count: 18
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 35
+    - enemyTag: enemyKareBeyaz
+      count: 18
+    - enemyTag: enemyElips
+      count: 18
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 35
+    - enemyTag: enemyKareBeyaz
+      count: 18
+    - enemyTag: enemyElips
+      count: 18
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 35
+    - enemyTag: enemyKareBeyaz
+      count: 18
+    - enemyTag: enemyElips
+      count: 18
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 35
+    - enemyTag: enemyKareBeyaz
+      count: 18
+    - enemyTag: enemyArrow
+      count: 18
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 40
+    - enemyTag: enemyKareBeyaz
+      count: 21
+    - enemyTag: enemyElips
+      count: 22
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 40
+    - enemyTag: enemyKareBeyaz
+      count: 21
+    - enemyTag: enemyUcgen
+      count: 22
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 40
+    - enemyTag: enemyKareBeyaz
+      count: 21
+    - enemyTag: enemyElips
+      count: 22
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyArrow
+      count: 40
+    - enemyTag: enemyKareBeyaz
+      count: 21
+    - enemyTag: enemyElips
+      count: 22
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 40
+    - enemyTag: enemyKareBeyaz
+      count: 21
+    - enemyTag: enemyElips
+      count: 22
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 40
+    - enemyTag: enemyKareBeyaz
+      count: 21
+    - enemyTag: enemyUcgen
+      count: 22
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 40
+    - enemyTag: enemyKareBeyaz
+      count: 21
+    - enemyTag: enemyElips
+      count: 22
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 40
+    - enemyTag: enemyKareBeyaz
+      count: 21
+    - enemyTag: enemyElips
+      count: 22
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 40
+    - enemyTag: enemyArrow
+      count: 21
+    - enemyTag: enemyElips
+      count: 22
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 40
+    - enemyTag: enemyKareBeyaz
+      count: 21
+    - enemyTag: enemyElips
+      count: 22
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 45
+    - enemyTag: enemyKareBeyaz
+      count: 25
+    - enemyTag: enemyUcgen
+      count: 25
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 45
+    - enemyTag: enemyKareBeyaz
+      count: 25
+    - enemyTag: enemyElips
+      count: 25
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 45
+    - enemyTag: enemyKareBeyaz
+      count: 25
+    - enemyTag: enemyElips
+      count: 25
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 45
+    - enemyTag: enemyArrow
+      count: 25
+    - enemyTag: enemyElips
+      count: 25
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 45
+    - enemyTag: enemyKareBeyaz
+      count: 25
+    - enemyTag: enemyElips
+      count: 25
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 45
+    - enemyTag: enemyKareBeyaz
+      count: 25
+    - enemyTag: enemyUcgen
+      count: 25
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 45
+    - enemyTag: enemyKareBeyaz
+      count: 25
+    - enemyTag: enemyElips
+      count: 25
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyArrow
+      count: 45
+    - enemyTag: enemyKareBeyaz
+      count: 25
+    - enemyTag: enemyElips
+      count: 25
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 45
+    - enemyTag: enemyKareBeyaz
+      count: 25
+    - enemyTag: enemyElips
+      count: 25
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 45
+    - enemyTag: enemyKareBeyaz
+      count: 25
+    - enemyTag: enemyUcgen
+      count: 25
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 45
+    - enemyTag: enemyKareBeyaz
+      count: 25
+    - enemyTag: enemyElips
+      count: 25
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 45
+    - enemyTag: enemyKareBeyaz
+      count: 25
+    - enemyTag: enemyArrow
+      count: 25
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 45
+    - enemyTag: enemyKareBeyaz
+      count: 25
+    - enemyTag: enemyElips
+      count: 25
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 45
+    - enemyTag: enemyKareBeyaz
+      count: 25
+    - enemyTag: enemyElips
+      count: 25
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 45
+    - enemyTag: enemyKareBeyaz
+      count: 25
+    - enemyTag: enemyElips
+      count: 25
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 45
+    - enemyTag: enemyKareBeyaz
+      count: 25
+    - enemyTag: enemyElips
+      count: 25
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 45
+    - enemyTag: enemyArrow
+      count: 25
+    - enemyTag: enemyUcgen
+      count: 25
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 55
+    - enemyTag: enemyKareBeyaz
+      count: 33
+    - enemyTag: enemyElips
+      count: 33
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 55
+    - enemyTag: enemyKareBeyaz
+      count: 33
+    - enemyTag: enemyElips
+      count: 33
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 55
+    - enemyTag: enemyKareBeyaz
+      count: 33
+    - enemyTag: enemyElips
+      count: 33
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 55
+    - enemyTag: enemyKareBeyaz
+      count: 33
+    - enemyTag: enemyElips
+      count: 33
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 55
+    - enemyTag: enemyArrow
+      count: 33
+    - enemyTag: enemyUcgen
+      count: 33
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 55
+    - enemyTag: enemyKareBeyaz
+      count: 33
+    - enemyTag: enemyElips
+      count: 33
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 55
+    - enemyTag: enemyKareBeyaz
+      count: 33
+    - enemyTag: enemyElips
+      count: 33
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 55
+    - enemyTag: enemyKareBeyaz
+      count: 33
+    - enemyTag: enemyElips
+      count: 33
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyArrow
+      count: 55
+    - enemyTag: enemyKareBeyaz
+      count: 33
+    - enemyTag: enemyElips
+      count: 33
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 55
+    - enemyTag: enemyKareBeyaz
+      count: 33
+    - enemyTag: enemyElips
+      count: 33
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 55
+    - enemyTag: enemyKareBeyaz
+      count: 33
+    - enemyTag: enemyElips
+      count: 33
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 55
+    - enemyTag: enemyKareBeyaz
+      count: 33
+    - enemyTag: enemyElips
+      count: 33
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 55
+    - enemyTag: enemyArrow
+      count: 33
+    - enemyTag: enemyUcgen
+      count: 33
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 55
+    - enemyTag: enemyKareBeyaz
+      count: 33
+    - enemyTag: enemyElips
+      count: 33
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 55
+    - enemyTag: enemyKareBeyaz
+      count: 33
+    - enemyTag: enemyElips
+      count: 33
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 55
+    - enemyTag: enemyKareBeyaz
+      count: 33
+    - enemyTag: enemyElips
+      count: 33
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 55
+    - enemyTag: enemyKareBeyaz
+      count: 33
+    - enemyTag: enemyElips
+      count: 33
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 55
+    - enemyTag: enemyKareBeyaz
+      count: 33
+    - enemyTag: enemyArrow
+      count: 33
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 55
+    - enemyTag: enemyUcgen
+      count: 33
+    - enemyTag: enemyElips
+      count: 33
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 55
+    - enemyTag: enemyKareBeyaz
+      count: 33
+    - enemyTag: enemyElips
+      count: 33
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 55
+    - enemyTag: enemyKareBeyaz
+      count: 33
+    - enemyTag: enemyElips
+      count: 33
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 55
+    - enemyTag: enemyKareBeyaz
+      count: 33
+    - enemyTag: enemyElips
+      count: 33
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 55
+    - enemyTag: enemyArrow
+      count: 33
+    - enemyTag: enemyElips
+      count: 33
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 65
+    - enemyTag: enemyKareBeyaz
+      count: 38
+    - enemyTag: enemyElips
+      count: 38
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 65
+    - enemyTag: enemyUcgen
+      count: 38
+    - enemyTag: enemyElips
+      count: 38
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 65
+    - enemyTag: enemyKareBeyaz
+      count: 38
+    - enemyTag: enemyElips
+      count: 38
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 65
+    - enemyTag: enemyKareBeyaz
+      count: 38
+    - enemyTag: enemyArrow
+      count: 38
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 65
+    - enemyTag: enemyKareBeyaz
+      count: 38
+    - enemyTag: enemyElips
+      count: 38
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 65
+    - enemyTag: enemyKareBeyaz
+      count: 38
+    - enemyTag: enemyElips
+      count: 38
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 65
+    - enemyTag: enemyKareBeyaz
+      count: 38
+    - enemyTag: enemyElips
+      count: 38
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 65
+    - enemyTag: enemyUcgen
+      count: 38
+    - enemyTag: enemyElips
+      count: 38
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 65
+    - enemyTag: enemyArrow
+      count: 38
+    - enemyTag: enemyElips
+      count: 38
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 65
+    - enemyTag: enemyKareBeyaz
+      count: 38
+    - enemyTag: enemyElips
+      count: 38
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 75
+    - enemyTag: enemyUcgen
+      count: 41
+    - enemyTag: enemyElips
+      count: 41
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 75
+    - enemyTag: enemyKareBeyaz
+      count: 41
+    - enemyTag: enemyElips
+      count: 41
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 75
+    - enemyTag: enemyKareBeyaz
+      count: 41
+    - enemyTag: enemyArrow
+      count: 41
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 75
+    - enemyTag: enemyKareBeyaz
+      count: 41
+    - enemyTag: enemyElips
+      count: 41
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyArrow
+      count: 75
+    - enemyTag: enemyKareBeyaz
+      count: 41
+    - enemyTag: enemyElips
+      count: 41
+    bossTag:
+    hasBoss: 0
+  - enemyGroups:
+    - enemyTag: enemyUcgen
+      count: 75
+    - enemyTag: enemyKareBeyaz
+      count: 41
+    - enemyTag: enemyElips
+      count: 41
+    bossTag:
+    hasBoss: 0

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2889fc79257fccd467f03b939038d0ca, type: 3}
+  m_Name: PopupPrefabs
+  m_EditorClassIdentifier:
+  SimplePopup: {fileID: 1709254077376921, guid: ec253d2ec5da48e4398adfb790fb2e94, type: 2}
+  YesNoPopup: {fileID: 1709254077376921, guid: 73507a493abd1694b88d99101bea7d2a, type: 2}
+  EditTextPopup: {fileID: 1709254077376921, guid: de6eb764cf936cf40aa5610c86f098cf, type: 2}
+  ChangeRolePopup: {fileID: 1709254077376921, guid: 9b614c10a8f0b484aa35cf0dbc1beddf, type: 2}
+  UserInfoForm: {fileID: 1709254077376921, guid: 17b334467e7e9ce4b99ef422b234b54b, type: 2}
+  ClanInfoForm: {fileID: 1709254077376921, guid: bc4e214ebbd927e4284baa502225fe2a, type: 2}
+  LoadingPopup: {fileID: 1709254077376921, guid: 2442215b42e5d2d41bd0bc0c759ccd4b, type: 2}
+  RewardPopup: {fileID: 1709254077376921, guid: 25380791abf13834dae28dcc889688dc, type: 2}
+  ItemPopup: {fileID: 1709254077376921, guid: 7637a22c9e6c79443ac7ad0e84cc957b, type: 2}
+  MessagePopup: {fileID: 1709254077376921, guid: 377bc54da5850d84097920356b00d5e6, type: 2}
+  StickersPopup: {fileID: 1709254077376921, guid: 8d3a002bc34314a458ee82d87e1a9388, type: 2}
+  ItemsPopup: {fileID: 1709254077376921, guid: 032595484d0fd1541ad6c51b205682c2, type: 2}

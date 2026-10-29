@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4849e34ba3d1e6fd2b6fb204ee7fe8b, type: 3}
+  m_Name: FGRemoteConfigSettings
+  m_EditorClassIdentifier:
+  moduleInfo:
+    Id: fg_remote_config
+    Name: Remote Config
+    Version: 3.4.0.0
+    LogColor: '#815AFD'
+    PackageUrl: https://gitlab.com/fungames-sdk/remoteconfig/fg_remote_config/-/raw/3.4.0.0/fg_remote_config-3.4.0.0.unitypackage
+    HasIssue: 0
+    IsDeprecated: 0
+    IsBeta: 0
+    Plugins: []
+    Dependencies:
+    - fg_core-3.4.0.0
+    - fg_tools-3.4.0.0
+  LogColor: {r: 0.5058824, g: 0.3529412, b: 0.99215686, a: 1}
+  logEnabled: 0
+  CustomDefaultValues: []
