@@ -9,10 +9,10 @@ Sprite:
   m_Name: closeico
   m_Rect:
     serializedVersion: 2
-    x: 19.02675
-    y: 19.02675
-    width: 217.9465
-    height: 217.9465
+    x: 0
+    y: 0
+    width: 256
+    height: 256
   m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 50
@@ -111,7 +111,7 @@ Sprite:
       y: 19.02675
       width: 217.9465
       height: 217.9465
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 19.0267506, y: 19.0267506}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 50, y: 128, z: 50, w: 128}

@@ -9,14 +9,14 @@ Sprite:
   m_Name: cloudse_9
   m_Rect:
     serializedVersion: 2
-    x: 83.70277
-    y: 0.21617717
-    width: 85
-    height: 171
-  m_Offset: {x: -0.6486176, y: -0.16667113}
+    x: 83.7027664
+    y: 0.216177166
+    width: 83.7027664
+    height: 170.666656
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 16.212793
-  m_Pivot: {x: 0.4923692, y: 0.49902532}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:

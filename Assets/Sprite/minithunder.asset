@@ -9,14 +9,14 @@ Sprite:
   m_Name: minithunder
   m_Rect:
     serializedVersion: 2
-    x: 38.047703
-    y: 1.026751
-    width: 180.8941
-    height: 251.89713
-  m_Offset: {x: -0.49474877, y: 1.0246918}
+    x: 0
+    y: 0
+    width: 256
+    height: 256
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 59.67366
-  m_Pivot: {x: 0.49726498, y: 0.5040679}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 1.026751
       width: 180.8941
       height: 251.89713
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 38.0477028, y: 1.02675104}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 59.67366, y: 128, z: 59.67366, w: 128}

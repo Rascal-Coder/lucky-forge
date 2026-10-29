@@ -9,14 +9,14 @@ Sprite:
   m_Name: lightbar
   m_Rect:
     serializedVersion: 2
-    x: 6.0761204
+    x: 0
     y: 0
-    width: 106.91097
-    height: 93.92388
-  m_Offset: {x: -0.03160387, y: 17.038055}
+    width: 119.000008
+    height: 127.999992
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 26.834381
-  m_Pivot: {x: 0.4997044, y: 0.6814028}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 0
       width: 106.91097
       height: 93.92388
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 6.07612038, y: 0}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 26.834381, y: 59.5, z: 26.834381, w: 64}

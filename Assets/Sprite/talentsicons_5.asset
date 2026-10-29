@@ -9,14 +9,14 @@ Sprite:
   m_Name: talentsicons_5
   m_Rect:
     serializedVersion: 2
-    x: 42.076122
-    y: 942.2363
-    width: 211.84775
-    height: 213.88759
-  m_Offset: {x: 1.9999952, y: 0.919882}
+    x: 0
+    y: 900.200012
+    width: 300
+    height: 299.799988
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 100
-  m_Pivot: {x: 0.5094407, y: 0.5043008}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 942.2363
       width: 211.84775
       height: 213.88759
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 42.0761223, y: 42.0363159}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 100, y: 150, z: 100, w: 1050}

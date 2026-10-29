@@ -9,14 +9,14 @@ Sprite:
   m_Name: herobacks_4
   m_Rect:
     serializedVersion: 2
-    x: 369.0761
-    y: 41.076122
-    width: 300.84778
-    height: 399.84778
-  m_Offset: {x: -0.49999586, y: -8.5000105}
+    x: 346
+    y: 0
+    width: 346
+    height: 465
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 100
-  m_Pivot: {x: 0.49833804, y: 0.47874188}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 41.076122
       width: 300.84778
       height: 399.84778
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 23.0761108, y: 41.0761223}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 100, y: 519, z: 100, w: 232.5}

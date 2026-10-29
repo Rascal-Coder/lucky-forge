@@ -9,14 +9,14 @@ Sprite:
   m_Name: balonborder
   m_Rect:
     serializedVersion: 2
-    x: 2.026751
-    y: 7.026751
-    width: 251.9465
-    height: 132.9465
-  m_Offset: {x: 0, y: -2.500003}
-  m_Border: {x: 14.907101, y: 50.567654, z: 14.40905, w: 22.301926}
+    x: 0
+    y: 0
+    width: 256
+    height: 142
+  m_Offset: {x: 0, y: 0}
+  m_Border: {x: 16.9338512, y: 57.5944061, z: 16.4357967, w: 24.3286724}
   m_PixelsToUnits: 49.65035
-  m_Pivot: {x: 0.5, y: 0.48119542}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 7.026751
       width: 251.9465
       height: 132.9465
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 2.02675104, y: 7.02675104}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 49.65035, y: 128, z: 49.65035, w: 71}

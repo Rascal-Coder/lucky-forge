@@ -9,14 +9,14 @@ Sprite:
   m_Name: yerleke_4
   m_Rect:
     serializedVersion: 2
-    x: 44.07612
-    y: 178.07613
-    width: 143.84775
-    height: 155.84775
-  m_Offset: {x: -3.4999943, y: -1.9999987}
+    x: 32
+    y: 170
+    width: 161
+    height: 168
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 100
-  m_Pivot: {x: 0.47566876, y: 0.48716697}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 178.07613
       width: 143.84775
       height: 155.84775
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 12.0761185, y: 8.0761261}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 100, y: 112.5, z: 100, w: 254}

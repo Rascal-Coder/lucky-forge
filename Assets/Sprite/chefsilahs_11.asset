@@ -9,14 +9,14 @@ Sprite:
   m_Name: chefsilahs_11
   m_Rect:
     serializedVersion: 2
-    x: 401.62238
-    y: 442.01904
-    width: 80.9465
-    height: 245.89713
-  m_Offset: {x: 0.48476088, y: 0.32751662}
+    x: 394.595612
+    y: 434.992279
+    width: 95.9695511
+    height: 260.605682
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 48.71134
-  m_Pivot: {x: 0.50598866, y: 0.5013319}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 442.01904
       width: 80.9465
       height: 245.89713
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 7.02676392, y: 7.02676392}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 48.71134, y: 442.5, z: 48.71134, w: 565}

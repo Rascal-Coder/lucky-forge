@@ -9,14 +9,14 @@ Sprite:
   m_Name: collectibles_22
   m_Rect:
     serializedVersion: 2
-    x: 409.38953
+    x: 409.389526
     y: 0
-    width: 206
-    height: 205
-  m_Offset: {x: -0.6526176, y: -0.19999981}
+    width: 204.694763
+    height: 204.600006
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 52.5964
-  m_Pivot: {x: 0.49683195, y: 0.4990244}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:

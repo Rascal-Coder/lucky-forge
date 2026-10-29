@@ -9,14 +9,14 @@ Sprite:
   m_Name: projectiles_14
   m_Rect:
     serializedVersion: 2
-    x: 267.05133
-    y: 28.07612
-    width: 97.921936
-    height: 80.84776
-  m_Offset: {x: 3.987701, y: -4.4999995}
+    x: 256
+    y: 0
+    width: 128
+    height: 128
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 50
-  m_Pivot: {x: 0.54072326, y: 0.44433984}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 28.07612
       width: 97.921936
       height: 80.84776
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 11.0513306, y: 28.0761204}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 50, y: 320, z: 50, w: 64}

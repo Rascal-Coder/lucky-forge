@@ -9,9 +9,9 @@ Sprite:
   m_Name: IconResizeVertialOnly
   m_Rect:
     serializedVersion: 2
-    x: 4.0761204
+    x: 0
     y: 0
-    width: 23.84776
+    width: 32
     height: 32
   m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,7 +111,7 @@ Sprite:
       y: 0
       width: 23.84776
       height: 32
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 4.07612038, y: 0}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 100, y: 16, z: 100, w: 16}

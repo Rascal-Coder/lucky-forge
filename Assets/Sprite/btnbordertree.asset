@@ -9,14 +9,14 @@ Sprite:
   m_Name: btnbordertree
   m_Rect:
     serializedVersion: 2
-    x: 1.0761205
-    y: 0.076120496
-    width: 253.89713
-    height: 253.84775
-  m_Offset: {x: -0.024682654, y: 1.0000054}
-  m_Border: {x: 94.20208, y: 95.20208, z: 94.25144, w: 93.202065}
+    x: 0
+    y: 0
+    width: 256
+    height: 256
+  m_Offset: {x: 0, y: 0}
+  m_Border: {x: 95.2781982, y: 95.2781982, z: 95.2781982, w: 95.2781982}
   m_PixelsToUnits: 96.2406
-  m_Pivot: {x: 0.49990278, y: 0.5039394}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 0.076120496
       width: 253.89713
       height: 253.84775
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 1.0761205, y: 0.0761204958}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 96.2406, y: 128, z: 96.2406, w: 128}

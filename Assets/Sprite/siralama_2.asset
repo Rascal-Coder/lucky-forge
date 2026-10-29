@@ -9,14 +9,14 @@ Sprite:
   m_Name: siralama_2
   m_Rect:
     serializedVersion: 2
-    x: 14.07612
-    y: 22.004868
-    width: 317.84778
-    height: 272.94745
-  m_Offset: {x: 1.4999865, y: -3.4785912}
+    x: 10
+    y: 15
+    width: 329
+    height: 280
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 100
-  m_Pivot: {x: 0.5047192, y: 0.48725545}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 22.004868
       width: 317.84778
       height: 272.94745
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 4.07612038, y: 7.00486755}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 100, y: 174.5, z: 100, w: 155}

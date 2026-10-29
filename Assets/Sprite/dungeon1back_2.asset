@@ -9,14 +9,14 @@ Sprite:
   m_Name: dungeon1back_2
   m_Rect:
     serializedVersion: 2
-    x: 602.0761
-    y: 715.02673
-    width: 421.84778
-    height: 304.89713
-  m_Offset: {x: -0.50000274, y: -0.9752966}
+    x: 601
+    y: 709
+    width: 423
+    height: 315
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 100
-  m_Pivot: {x: 0.49881473, y: 0.49680123}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 715.02673
       width: 421.84778
       height: 304.89713
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 1.07611084, y: 6.0267334}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 100, y: 812.5, z: 100, w: 866.5}

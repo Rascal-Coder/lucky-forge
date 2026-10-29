@@ -9,14 +9,14 @@ Sprite:
   m_Name: bluefire_4
   m_Rect:
     serializedVersion: 2
-    x: 415.0761
-    y: 86.076126
-    width: 199.84776
-    height: 359.84778
-  m_Offset: {x: -4.4127407, y: -178.7183}
+    x: 352
+    y: 53
+    width: 323
+    height: 487
+  m_Offset: {x: -2.91275024, y: -209.218292}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 100
-  m_Pivot: {x: 0.4779195, y: 0.0033502546}
+  m_Pivot: {x: 0.490982205, y: 0.0703936517}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 86.076126
       width: 199.84776
       height: 359.84778
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 63.0761108, y: 33.0761261}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 100, y: 510.58725, z: 100, w: 87.28171}

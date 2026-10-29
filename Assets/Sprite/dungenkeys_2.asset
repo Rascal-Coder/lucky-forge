@@ -9,14 +9,14 @@ Sprite:
   m_Name: dungenkeys_2
   m_Rect:
     serializedVersion: 2
-    x: 430.0129
-    y: 210.05132
-    width: 166.96034
-    height: 194.87256
-  m_Offset: {x: -0.99308133, y: 0.012405151}
+    x: 410
+    y: 205
+    width: 205
+    height: 205
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 100
-  m_Pivot: {x: 0.494052, y: 0.50006366}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 210.05132
       width: 166.96034
       height: 194.87256
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 20.0129089, y: 5.05131531}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 100, y: 512.5, z: 100, w: 307.5}

@@ -9,14 +9,14 @@ Sprite:
   m_Name: orbs_4
   m_Rect:
     serializedVersion: 2
-    x: 237.02675
-    y: 6.526751
-    width: 209.9465
-    height: 209.9465
-  m_Offset: {x: -4.5000014, y: 0.25000042}
+    x: 225
+    y: 0.5
+    width: 225
+    height: 222.5
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 100
-  m_Pivot: {x: 0.47856596, y: 0.5011908}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 6.526751
       width: 209.9465
       height: 209.9465
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 12.0267487, y: 6.02675104}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 100, y: 337.5, z: 100, w: 111.5}

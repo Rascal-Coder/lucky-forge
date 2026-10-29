@@ -9,14 +9,14 @@ Sprite:
   m_Name: buyutec
   m_Rect:
     serializedVersion: 2
-    x: 9.07612
+    x: 0
     y: 0
-    width: 176.84775
-    height: 182.92387
-  m_Offset: {x: -0.499994, y: 5.5380616}
+    width: 194
+    height: 194
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 100
-  m_Pivot: {x: 0.49717274, y: 0.5302752}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 0
       width: 176.84775
       height: 182.92387
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 9.07612038, y: 0}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 100, y: 97, z: 100, w: 97}

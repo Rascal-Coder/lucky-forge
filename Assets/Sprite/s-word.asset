@@ -9,14 +9,14 @@ Sprite:
   m_Name: s-word
   m_Rect:
     serializedVersion: 2
-    x: 31.07612
-    y: 12.07612
-    width: 180.89713
-    height: 209.84775
-  m_Offset: {x: -1.5246831, y: 3.0000074}
+    x: 0
+    y: 0
+    width: 240
+    height: 240
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 100
-  m_Pivot: {x: 0.49157155, y: 0.5142961}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 12.07612
       width: 180.89713
       height: 209.84775
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 31.0761204, y: 12.0761204}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 100, y: 120, z: 100, w: 120}

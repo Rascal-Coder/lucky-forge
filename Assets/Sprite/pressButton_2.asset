@@ -9,14 +9,14 @@ Sprite:
   m_Name: pressButton_2
   m_Rect:
     serializedVersion: 2
-    x: 18.209126
-    y: 43.129692
-    width: 468.84778
-    height: 186.89713
-  m_Offset: {x: -0.05597485, y: 1.7074627}
+    x: 15.1330042
+    y: 41.0535698
+    width: 474.888092
+    height: 194.464279
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 72.02381
-  m_Pivot: {x: 0.4998806, y: 0.50913584}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 43.129692
       width: 468.84778
       height: 186.89713
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 3.07612133, y: 2.07612228}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 72.02381, y: 253, z: 72.02381, w: 138.5}

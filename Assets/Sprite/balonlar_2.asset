@@ -9,14 +9,14 @@ Sprite:
   m_Name: balonlar_2
   m_Rect:
     serializedVersion: 2
-    x: 421.61203
-    y: 79.64677
-    width: 90.84776
-    height: 90.84776
-  m_Offset: {x: -0.7679507, y: -0.7500002}
+    x: 420.535919
+    y: 78.5706482
+    width: 91.4640808
+    height: 91.5
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 99.41748
-  m_Pivot: {x: 0.49154684, y: 0.49174443}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 79.64677
       width: 90.84776
       height: 90.84776
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 1.07611084, y: 1.07611847}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 99.41748, y: 466, z: 99.41748, w: 124.5}

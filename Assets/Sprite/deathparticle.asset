@@ -12,11 +12,11 @@ Sprite:
     x: 0
     y: 0
     width: 64
-    height: 40.923878
-  m_Offset: {x: 0, y: 0.53806025}
+    height: 42
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 17.647058
-  m_Pivot: {x: 0.5, y: 0.51314783}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:

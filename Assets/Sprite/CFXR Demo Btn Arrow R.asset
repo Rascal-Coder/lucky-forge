@@ -9,14 +9,14 @@ Sprite:
   m_Name: CFXR Demo Btn Arrow R
   m_Rect:
     serializedVersion: 2
-    x: 17.07612
-    y: 33.026752
-    width: 94.84776
-    height: 61.89713
-  m_Offset: {x: -0.5000008, y: 0.024681794}
+    x: 0
+    y: 0
+    width: 128
+    height: 128
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 50
-  m_Pivot: {x: 0.4947284, y: 0.50039876}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 33.026752
       width: 94.84776
       height: 61.89713
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 17.0761204, y: 33.0267525}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 50, y: 64, z: 50, w: 64}

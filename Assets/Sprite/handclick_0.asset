@@ -9,14 +9,14 @@ Sprite:
   m_Name: handclick_0
   m_Rect:
     serializedVersion: 2
-    x: 4.437333
-    y: 16.39312
-    width: 124
-    height: 97
-  m_Offset: {x: -0.56000316, y: -0.5159689}
+    x: 4.43733311
+    y: 16.3931198
+    width: 122.879997
+    height: 95.9680634
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 34.13333
-  m_Pivot: {x: 0.49548385, y: 0.49468073}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:

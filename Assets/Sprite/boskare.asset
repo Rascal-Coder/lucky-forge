@@ -9,14 +9,14 @@ Sprite:
   m_Name: boskare
   m_Rect:
     serializedVersion: 2
-    x: 11.07612
-    y: 11.07612
-    width: 291.84778
-    height: 291.84778
-  m_Offset: {x: -1.7395483E-05, y: -1.7395483E-05}
-  m_Border: {x: 113.92388, y: 113.92388, z: 113.9239, w: 113.9239}
+    x: 0
+    y: 0
+    width: 314
+    height: 314
+  m_Offset: {x: 0, y: 0}
+  m_Border: {x: 125, y: 125, z: 125, w: 125}
   m_PixelsToUnits: 100
-  m_Pivot: {x: 0.49999994, y: 0.49999994}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 11.07612
       width: 291.84778
       height: 291.84778
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 11.0761204, y: 11.0761204}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 100, y: 157, z: 100, w: 157}

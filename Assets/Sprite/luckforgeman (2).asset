@@ -9,14 +9,14 @@ Sprite:
   m_Name: luckforgeman (2)
   m_Rect:
     serializedVersion: 2
-    x: 34.076122
-    y: 27.07612
-    width: 614.8478
-    height: 969.89716
-  m_Offset: {x: 0, y: -0.02468503}
+    x: 0
+    y: 0
+    width: 683
+    height: 1024
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 66.66667
-  m_Pivot: {x: 0.5, y: 0.49997455}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 27.07612
       width: 614.8478
       height: 969.89716
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 34.0761223, y: 27.0761204}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 66.66667, y: 341.5, z: 66.66667, w: 512}

@@ -9,14 +9,14 @@ Sprite:
   m_Name: starborder
   m_Rect:
     serializedVersion: 2
-    x: 10.07612
-    y: 15.07612
-    width: 234.84775
-    height: 226.89713
-  m_Offset: {x: 0.5000092, y: -0.52468187}
+    x: 0
+    y: 0
+    width: 256
+    height: 256
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 80.25078
-  m_Pivot: {x: 0.5021291, y: 0.49768758}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 15.07612
       width: 234.84775
       height: 226.89713
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 10.0761204, y: 15.0761204}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 80.25078, y: 128, z: 80.25078, w: 128}

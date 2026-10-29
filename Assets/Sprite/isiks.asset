@@ -9,14 +9,14 @@ Sprite:
   m_Name: isiks
   m_Rect:
     serializedVersion: 2
-    x: 27.292892
+    x: 0
     y: 0
-    width: 457.41418
+    width: 512
     height: 103
-  m_Offset: {x: 2.726401E-05, y: 0}
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 48.1203
-  m_Pivot: {x: 0.50000006, y: 0.5}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 0
       width: 457.41418
       height: 103
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 27.2928925, y: 0}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 48.1203, y: 256, z: 48.1203, w: 51.5}

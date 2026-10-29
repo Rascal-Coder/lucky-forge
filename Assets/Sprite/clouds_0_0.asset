@@ -9,14 +9,14 @@ Sprite:
   m_Name: clouds_0
   m_Rect:
     serializedVersion: 2
-    x: 1.6786885
-    y: 1.2605042
-    width: 123
-    height: 97
-  m_Offset: {x: -0.43770486, y: -0.39075574}
+    x: 1.67868853
+    y: 1.26050425
+    width: 122.124588
+    height: 96.2184906
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 41.967213
-  m_Pivot: {x: 0.49644142, y: 0.4959716}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:

@@ -9,14 +9,14 @@ Sprite:
   m_Name: enemiesNeon_0
   m_Rect:
     serializedVersion: 2
-    x: 0.026750982
-    y: 129.02675
-    width: 63.973248
-    height: 62.921932
-  m_Offset: {x: -0.013374458, y: -0.48771465}
+    x: 0
+    y: 128
+    width: 64
+    height: 64
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 16.452442
-  m_Pivot: {x: 0.49979094, y: 0.4922489}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 129.02675
       width: 63.973248
       height: 62.921932
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 0.0267509818, y: 1.02674866}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 16.452442, y: 32, z: 16.452442, w: 160}

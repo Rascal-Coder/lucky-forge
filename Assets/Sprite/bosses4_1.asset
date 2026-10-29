@@ -9,14 +9,14 @@ Sprite:
   m_Name: bosses4_1
   m_Rect:
     serializedVersion: 2
-    x: 548.02673
-    y: 530.0761
-    width: 430.89713
-    height: 473.84778
-  m_Offset: {x: 4.5247083, y: 0.99999034}
+    x: 512
+    y: 512
+    width: 512
+    height: 512
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 100
-  m_Pivot: {x: 0.51050067, y: 0.50211036}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 530.0761
       width: 430.89713
       height: 473.84778
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 36.0267334, y: 18.0761108}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 100, y: 768, z: 100, w: 768}

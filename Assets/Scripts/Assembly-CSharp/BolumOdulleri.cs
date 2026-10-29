@@ -108,7 +108,7 @@ public class BolumOdulleri : MonoBehaviour
 
 	public GameObject[] activeBolumler = new GameObject[3];
 
-	private int[] activeBolumIndices;
+	private int[] activeBolumIndices = new int[] { -1, -1, -1 };
 
 	public bool levelalindi;
 
@@ -213,19 +213,64 @@ public class BolumOdulleri : MonoBehaviour
 
 	public void CharChanged()
 	{
+		// Offline recovery candidate; native RVA 0x21b4c94.
+		int chosen = ES3.Load<int>("MainHeroNum", 0);
+		MainHero hero = heroController.mainHeroes[chosen];
+		characterSet[0].sprite = hero.iconSet[0];
+		characterSet[1].sprite = hero.iconSet[1];
+		characterSet[2].sprite = hero.iconSet[2];
+		characterSet[3].sprite = hero.iconSet[3];
+		characterSet[4].sprite = hero.iconSet[4];
+		characterSet[5].sprite = hero.iconSet[5];
+		characterSet[6].sprite = hero.iconSet[2];
+		characterSet[7].sprite = hero.iconSet[3];
+		characterSet[8].sprite = hero.iconSet[4];
+		characterSet[9].sprite = hero.iconSet[5];
 	}
 
 	public void BolumuYerlestir()
 	{
+		// Offline recovery candidate; native RVA 0x21b4920.
+		GameObject template = Bolumler.GetChild(GameManager.Level % Bolumler.childCount).gameObject;
+		for (int i = 0; i < 3; ++i)
+		{
+		 if (activeBolumler[i] != null) UnityEngine.Object.Destroy(activeBolumler[i]);
+		 activeBolumler[i] = UnityEngine.Object.Instantiate(template, YerlesecekYerler[i]);
+		 activeBolumler[i].transform.localPosition = Vector3.zero;
+		 activeBolumler[i].transform.localRotation = Quaternion.identity;
+		 activeBolumler[i].transform.localScale = Vector3.one;
+		 activeBolumler[i].SetActive(true);
+		 activeBolumIndices[i] = i;
+		}
+		UpdateBolumPositions();
 	}
 
 	private void UpdateBolumPositions()
 	{
+		// Offline desktop convergence adapter; original single-step RVA 0x21b2ce4 is preserved in UpdateBolumPositionsOnce.
+		// Offline desktop adaptation: settle the original single-step recycler after large camera jumps.
+		// Keep native constants, ordered branches, existing objects and camera range unchanged.
+		while (true)
+		{
+		 GameObject first = activeBolumler[0], middle = activeBolumler[1], last = activeBolumler[2];
+		 Vector3 firstPosition = first.transform.position, middlePosition = middle.transform.position, lastPosition = last.transform.position;
+		 bool firstActive = first.activeSelf, middleActive = middle.activeSelf, lastActive = last.activeSelf;
+		 UpdateBolumPositionsOnce();
+		 if (object.ReferenceEquals(first,activeBolumler[0]) && object.ReferenceEquals(middle,activeBolumler[1]) && object.ReferenceEquals(last,activeBolumler[2])
+		     && firstPosition.Equals(activeBolumler[0].transform.position) && middlePosition.Equals(activeBolumler[1].transform.position) && lastPosition.Equals(activeBolumler[2].transform.position)
+		     && firstActive == activeBolumler[0].activeSelf && middleActive == activeBolumler[1].activeSelf && lastActive == activeBolumler[2].activeSelf) return;
+		}
 	}
 
 	private GameObject GetFarthestBolum(bool forward)
 	{
-		return null;
+		// Offline recovery candidate; native RVA 0x21b4f7c.
+		GameObject result = activeBolumler[0];
+		foreach (GameObject item in activeBolumler)
+		{
+		 if (forward ? item.transform.position.z > result.transform.position.z : item.transform.position.z < result.transform.position.z) result = item;
+		}
+		return result;
 	}
 
 	private void Start()
@@ -589,5 +634,38 @@ public class BolumOdulleri : MonoBehaviour
 
 	private void Update()
 	{
+		// Offline recovery candidate; native RVA 0x21cad10.
+		timercamera = (float)(timercamera + Time.deltaTime);
+		if (!(timercamera > 0.01f)) return;
+		if (cameraHandler.transform.position.z != oldpozcamera)
+		{
+		 UpdateBolumPositions();
+		 oldpozcamera = cameraHandler.transform.position.z;
+		}
+		timercamera = 0f;
+	}
+
+	private void UpdateBolumPositionsOnce()
+	{
+		// Original single-step recycler; native RVA 0x21b2ce4, unchanged branch semantics.
+		float anchor = (float)(cameraTransform.position.z + 250f);
+		if ((float)(anchor - activeBolumler[0].transform.position.z) > 102f)
+		{
+		 Transform moved = activeBolumler[0].transform;
+		 Vector3 p = moved.position;
+		 moved.position = new Vector3(p.x, p.y, (float)(activeBolumler[2].transform.position.z + 102f));
+		 GameObject first = activeBolumler[0];
+		 activeBolumler[0] = activeBolumler[1]; activeBolumler[1] = activeBolumler[2]; activeBolumler[2] = first;
+		 activeBolumler[0].SetActive(true); activeBolumler[1].SetActive(true); activeBolumler[2].SetActive(true);
+		}
+		if ((float)(anchor - activeBolumler[2].transform.position.z) < -102f)
+		{
+		 Transform moved = activeBolumler[2].transform;
+		 Vector3 p = moved.position;
+		 moved.position = new Vector3(p.x, p.y, (float)(activeBolumler[0].transform.position.z - 102f));
+		 GameObject last = activeBolumler[2];
+		 activeBolumler[2] = activeBolumler[1]; activeBolumler[1] = activeBolumler[0]; activeBolumler[0] = last;
+		 activeBolumler[0].SetActive(!(activeBolumler[0].transform.position.z < -80f));
+		}
 	}
 }

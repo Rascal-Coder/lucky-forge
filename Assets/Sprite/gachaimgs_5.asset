@@ -9,14 +9,14 @@ Sprite:
   m_Name: gachaimgs_5
   m_Rect:
     serializedVersion: 2
-    x: 756.0429
-    y: 398.05133
-    width: 251.88098
-    height: 235.90099
-  m_Offset: {x: -2.4833987, y: 1.4981776}
+    x: 723
+    y: 367
+    width: 313
+    height: 301
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 100
-  m_Pivot: {x: 0.4901406, y: 0.5063509}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 398.05133
       width: 251.88098
       height: 235.90099
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 33.0429077, y: 31.0513306}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 100, y: 879.5, z: 100, w: 517.5}

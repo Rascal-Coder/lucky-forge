@@ -9,14 +9,14 @@ Sprite:
   m_Name: shields_19
   m_Rect:
     serializedVersion: 2
-    x: 838.2761
-    y: 221.87613
-    width: 166.84775
-    height: 166.84775
-  m_Offset: {x: -0.09998106, y: 1.9000031}
+    x: 819.200012
+    y: 204.800003
+    width: 204.800003
+    height: 204.800003
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 80.31372
-  m_Pivot: {x: 0.49940076, y: 0.51138765}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 221.87613
       width: 166.84775
       height: 166.84775
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 19.0761108, y: 17.0761261}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 80.31372, y: 921.5, z: 80.31372, w: 307}

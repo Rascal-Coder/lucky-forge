@@ -9,14 +9,14 @@ Sprite:
   m_Name: emblem4
   m_Rect:
     serializedVersion: 2
-    x: 2.036285
-    y: 1.026751
-    width: 27.936964
-    height: 28.946499
-  m_Offset: {x: -0.00476739, y: 0.50000006}
+    x: 0
+    y: 0
+    width: 32
+    height: 32
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 32
-  m_Pivot: {x: 0.49982935, y: 0.51727325}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 1.026751
       width: 27.936964
       height: 28.946499
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 2.03628492, y: 1.02675104}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 32, y: 16, z: 32, w: 16}

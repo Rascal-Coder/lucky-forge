@@ -33,6 +33,8 @@ public sealed class OfflineRuntimeProbe : MonoBehaviour
         public List<string> commanderDiagnostics = new List<string>();
         public bool tutorialCompleted;
         public bool homeTutorialCompleted;
+        public bool homeWorldSweepCompleted;
+        public int homeWorldSweepChecks;
         public bool talentTutorialCompleted;
         public bool idleRewardsClaimed;
         public bool idleGateVerified;
@@ -127,6 +129,7 @@ public sealed class OfflineRuntimeProbe : MonoBehaviour
             }
             if(actions=="later-battle" || actions=="later-campaign" || actions=="third-guide") yield return OfflineLaterBattleSmoke.Run(result,root);
             if(actions=="home-growth") yield return OfflineHomeGrowthSmoke.Run(result,root);
+            if(actions=="home-world-sweep") yield return HomeWorldSweepSmoke.Run(result,root);
             if (actions == "first-spin" || actions == "combat")
             {
                 var ui = FindFirstObjectByType<SlotMachineUI>();
@@ -201,6 +204,7 @@ public sealed class OfflineRuntimeProbe : MonoBehaviour
         if(requestedActions=="onboarding-home")result.passed=result.finalScene=="Sahne" && result.victoryCollected && result.homeTutorialCompleted && result.level==1 && result.weaponLevelAfter>=2 && result.errors.Count==0;
         if(requestedActions=="resume") result.passed=result.finalScene=="Sahne" && result.level==int.Parse(Environment.GetEnvironmentVariable("LUCKYFORGE_RECOVERY_EXPECT_LEVEL")) && result.coin==double.Parse(Environment.GetEnvironmentVariable("LUCKYFORGE_RECOVERY_EXPECT_COIN"),System.Globalization.CultureInfo.InvariantCulture) && result.dataCoin==result.coin*2d && !result.inBattle && result.poolStarted && result.errors.Count==0;
         if(requestedActions=="home-growth") result.passed=result.finalScene=="Sahne" && result.weaponUpgradeCompleted && result.level==int.Parse(Environment.GetEnvironmentVariable("LUCKYFORGE_RECOVERY_EXPECT_LEVEL")) && result.coin==double.Parse(Environment.GetEnvironmentVariable("LUCKYFORGE_RECOVERY_EXPECT_COIN"),System.Globalization.CultureInfo.InvariantCulture)-result.weaponUpgradeSpent && result.dataCoin==result.coin*2d && result.errors.Count==0;
+        if(requestedActions=="home-world-sweep") result.passed=result.finalScene=="Sahne" && result.homeWorldSweepCompleted && !result.inBattle && result.poolStarted && result.errors.Count==0;
         string expectedWeapon=Environment.GetEnvironmentVariable("LUCKYFORGE_RECOVERY_EXPECT_WEAPON_LEVEL");
         if(requestedActions=="resume" && !string.IsNullOrEmpty(expectedWeapon))
         {

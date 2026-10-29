@@ -9,14 +9,14 @@ Sprite:
   m_Name: karakterbackmask
   m_Rect:
     serializedVersion: 2
-    x: 55.026752
-    y: 60.051315
-    width: 499.9465
-    height: 599.92194
-  m_Offset: {x: -0.49999967, y: -11.512296}
+    x: 0
+    y: 0
+    width: 609
+    height: 697
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 100
-  m_Pivot: {x: 0.4989999, y: 0.48081034}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 60.051315
       width: 499.9465
       height: 599.92194
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 55.0267525, y: 60.0513153}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 100, y: 304.5, z: 100, w: 348.5}

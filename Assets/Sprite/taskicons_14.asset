@@ -9,14 +9,14 @@ Sprite:
   m_Name: taskicons_14
   m_Rect:
     serializedVersion: 2
-    x: 211.1483
-    y: 109.93056
-    width: 89.89713
-    height: 89.878395
-  m_Offset: {x: 0.39968532, y: -0.8153157}
+    x: 205.121552
+    y: 102.854439
+    width: 102.75
+    height: 102.400002
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 37.845306
-  m_Pivot: {x: 0.504446, y: 0.49092868}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 109.93056
       width: 89.89713
       height: 89.878395
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 6.02674866, y: 7.07611847}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 37.845306, y: 256.5, z: 37.845306, w: 154}

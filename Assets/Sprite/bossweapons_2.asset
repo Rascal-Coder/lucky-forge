@@ -9,14 +9,14 @@ Sprite:
   m_Name: bossweapons_2
   m_Rect:
     serializedVersion: 2
-    x: 554.24
-    y: 548.5798
-    width: 180
-    height: 197
-  m_Offset: {x: -0.18666029, y: -0.5240858}
+    x: 554.23999
+    y: 548.579773
+    width: 179.626678
+    height: 195.951828
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 42.666668
-  m_Pivot: {x: 0.498963, y: 0.49733967}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:

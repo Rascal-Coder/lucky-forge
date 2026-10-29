@@ -9,14 +9,14 @@ Sprite:
   m_Name: clanicons_0022_Seçmeli-Renk-1-kopya-21
   m_Rect:
     serializedVersion: 2
-    x: 53.026752
-    y: 22.07612
-    width: 151.89713
-    height: 207.91096
-  m_Offset: {x: -0.9753133, y: 1.9683934}
+    x: 0
+    y: 0
+    width: 256
+    height: 256
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 71.50838
-  m_Pivot: {x: 0.49357912, y: 0.5094675}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 22.07612
       width: 151.89713
       height: 207.91096
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 53.0267525, y: 22.0761204}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 71.50838, y: 128, z: 71.50838, w: 128}

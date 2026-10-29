@@ -9,14 +9,14 @@ Sprite:
   m_Name: lockunlock_0
   m_Rect:
     serializedVersion: 2
-    x: 11.026751
-    y: 19.07612
-    width: 100.9465
-    height: 131.84775
-  m_Offset: {x: 0.0384599, y: 7.858738E-06}
+    x: 0
+    y: 0
+    width: 123.076927
+    height: 170
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 61.538464
-  m_Pivot: {x: 0.500381, y: 0.50000006}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 19.07612
       width: 100.9465
       height: 131.84775
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 11.0267506, y: 19.0761204}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 61.538464, y: 62, z: 61.538464, w: 85}

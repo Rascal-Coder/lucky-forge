@@ -9,14 +9,14 @@ Sprite:
   m_Name: iconSet_9
   m_Rect:
     serializedVersion: 2
-    x: 847.22675
-    y: 636.968
-    width: 149.89713
-    height: 157.84775
-  m_Offset: {x: -0.57529664, y: 1.0270274}
+    x: 819.200012
+    y: 614.891907
+    width: 204.800003
+    height: 204.054031
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 68.24549
-  m_Pivot: {x: 0.49616206, y: 0.50650644}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 636.968
       width: 149.89713
       height: 157.84775
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 28.0267334, y: 22.0761108}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 68.24549, y: 921.5, z: 68.24549, w: 716.5}

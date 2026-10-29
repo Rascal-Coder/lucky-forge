@@ -9,14 +9,14 @@ Sprite:
   m_Name: tierss_2
   m_Rect:
     serializedVersion: 2
-    x: 560.0761
-    y: 282.0761
-    width: 166.84775
-    height: 205.84775
-  m_Offset: {x: -5.9999824, y: -2.4999866}
+    x: 510
+    y: 255
+    width: 255
+    height: 255
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 100
-  m_Pivot: {x: 0.46403918, y: 0.48785517}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 282.0761
       width: 166.84775
       height: 205.84775
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 50.0761108, y: 27.0761108}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 100, y: 637.5, z: 100, w: 382.5}

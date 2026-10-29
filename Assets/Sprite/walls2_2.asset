@@ -9,14 +9,14 @@ Sprite:
   m_Name: walls2_2
   m_Rect:
     serializedVersion: 2
-    x: 15.07612
-    y: 278.71567
-    width: 834.881
-    height: 225.92194
-  m_Offset: {x: -0.016595889, y: -3.206779}
+    x: 0
+    y: 261.688904
+    width: 865
+    height: 253.561905
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 81.269844
-  m_Pivot: {x: 0.49998012, y: 0.4858058}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 278.71567
       width: 834.881
       height: 225.92194
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 15.0761204, y: 17.0267639}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 81.269844, y: 432.5, z: 81.269844, w: 388.5}

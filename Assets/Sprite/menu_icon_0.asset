@@ -9,14 +9,14 @@ Sprite:
   m_Name: menu_icon_0
   m_Rect:
     serializedVersion: 2
-    x: 3.0513167
-    y: 265.02676
-    width: 203.89737
-    height: 209.9465
-  m_Offset: {x: 7.5000014, y: -8.500014}
+    x: 0
+    y: 241
+    width: 225
+    height: 241
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 100
-  m_Pivot: {x: 0.5367832, y: 0.45951343}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 265.02676
       width: 203.89737
       height: 209.9465
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 3.05131674, y: 24.0267639}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 100, y: 112.5, z: 100, w: 361.5}

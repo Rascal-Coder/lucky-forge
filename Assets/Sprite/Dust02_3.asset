@@ -9,14 +9,14 @@ Sprite:
   m_Name: Dust02_3
   m_Rect:
     serializedVersion: 2
-    x: 134.49275
-    y: 5.574803
-    width: 104
-    height: 87
-  m_Offset: {x: -0.5217414, y: -0.29527608}
+    x: 134.492752
+    y: 5.57480288
+    width: 102.95652
+    height: 86.4094467
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 92.753624
-  m_Pivot: {x: 0.49498326, y: 0.49660602}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:

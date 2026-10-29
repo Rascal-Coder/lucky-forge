@@ -9,14 +9,14 @@ Sprite:
   m_Name: charactersHero_40
   m_Rect:
     serializedVersion: 2
-    x: 449.94382
-    y: 226.7592
-    width: 94.89713
-    height: 52.84776
-  m_Offset: {x: 5.549168, y: 4.392305}
+    x: 430.867706
+    y: 186.683075
+    width: 144.14769
+    height: 141.784622
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 78.76923
-  m_Pivot: {x: 0.5584756, y: 0.5831124}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 226.7592
       width: 94.89713
       height: 52.84776
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 19.0761108, y: 40.0761261}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 78.76923, y: 503, z: 78.76923, w: 257.5}

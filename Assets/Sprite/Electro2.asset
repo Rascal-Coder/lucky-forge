@@ -9,14 +9,14 @@ Sprite:
   m_Name: Electro2
   m_Rect:
     serializedVersion: 2
-    x: 0.06306642
-    y: 10.07612
-    width: 722.86084
-    height: 684.8478
-  m_Offset: {x: 2.50652, y: 11.500004}
+    x: 0
+    y: 0
+    width: 728
+    height: 728
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 100
-  m_Pivot: {x: 0.5034675, y: 0.51679206}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 10.07612
       width: 722.86084
       height: 684.8478
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 0.0630664229, y: 10.0761204}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 100, y: 364, z: 100, w: 364}

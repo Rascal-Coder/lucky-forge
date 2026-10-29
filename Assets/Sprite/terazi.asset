@@ -9,14 +9,14 @@ Sprite:
   m_Name: terazi
   m_Rect:
     serializedVersion: 2
-    x: 43.076122
-    y: 77.07612
-    width: 937.8478
-    height: 870.8478
-  m_Offset: {x: 0, y: -0.49999005}
+    x: 0
+    y: 0
+    width: 1024
+    height: 1024
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 100
-  m_Pivot: {x: 0.5, y: 0.49942586}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 77.07612
       width: 937.8478
       height: 870.8478
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 43.0761223, y: 77.0761185}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 100, y: 512, z: 100, w: 512}

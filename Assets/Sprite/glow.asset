@@ -9,14 +9,14 @@ Sprite:
   m_Name: glow
   m_Rect:
     serializedVersion: 2
-    x: 29.07612
-    y: 22.07612
-    width: 397.84778
-    height: 48.847763
-  m_Offset: {x: -2.5000155, y: -1.4557768E-06}
-  m_Border: {x: 95.92388, y: 23.92388, z: 100.9239, w: 23.923883}
+    x: 0
+    y: 0
+    width: 451
+    height: 93
+  m_Offset: {x: 0, y: 0}
+  m_Border: {x: 125, y: 46, z: 125, w: 46}
   m_PixelsToUnits: 100
-  m_Pivot: {x: 0.49371615, y: 0.49999997}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 22.07612
       width: 397.84778
       height: 48.847763
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 29.0761204, y: 22.0761204}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 100, y: 225.5, z: 100, w: 46.5}

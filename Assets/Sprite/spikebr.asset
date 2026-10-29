@@ -9,14 +9,14 @@ Sprite:
   m_Name: spikebr
   m_Rect:
     serializedVersion: 2
-    x: 0.076120496
+    x: 0
     y: 0
-    width: 63.876175
-    height: 43.923878
-  m_Offset: {x: -0.014207003, y: 0.03806146}
+    width: 64
+    height: 44
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 72.13114
-  m_Pivot: {x: 0.4997776, y: 0.50086653}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 0
       width: 63.876175
       height: 43.923878
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 0.0761204958, y: 0}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 72.13114, y: 32, z: 72.13114, w: 22}

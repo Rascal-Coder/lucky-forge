@@ -9,14 +9,14 @@ Sprite:
   m_Name: explosiontest_4
   m_Rect:
     serializedVersion: 2
-    x: 41.968502
-    y: 3.8856444
-    width: 42.973248
-    height: 41.923878
-  m_Offset: {x: -0.661018, y: -1.0000416}
+    x: 41.9417496
+    y: 3.80952382
+    width: 41.5067978
+    height: 40.9679947
+  m_Offset: {x: 0.0989570618, y: -0.445980072}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 6.2135925
-  m_Pivot: {x: 0.48461792, y: 0.47614625}
+  m_Pivot: {x: 0.502384186, y: 0.489113957}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 3.8856444
       width: 42.973248
       height: 41.923878
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 0.0267524719, y: 0.076120615}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 6.2135925, y: 62.598957, z: 6.2135925, w: 23.55402}

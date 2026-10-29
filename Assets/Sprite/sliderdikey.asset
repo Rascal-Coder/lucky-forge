@@ -9,14 +9,14 @@ Sprite:
   m_Name: sliderdikey
   m_Rect:
     serializedVersion: 2
-    x: 6.0761204
-    y: 1.0761205
-    width: 161.84775
-    height: 253.84775
-  m_Offset: {x: 1.9293755E-05, y: 0}
+    x: 0
+    y: 0
+    width: 174.000015
+    height: 255.999985
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 58.389263
-  m_Pivot: {x: 0.5000001, y: 0.5}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 1.0761205
       width: 161.84775
       height: 253.84775
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 6.07612038, y: 1.0761205}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 58.389263, y: 87, z: 58.389263, w: 128}

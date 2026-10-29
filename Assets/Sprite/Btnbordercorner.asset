@@ -9,14 +9,14 @@ Sprite:
   m_Name: Btnbordercorner
   m_Rect:
     serializedVersion: 2
-    x: 4.0761204
+    x: 0
     y: 0
-    width: 255.84776
-    height: 276.9239
-  m_Offset: {x: 0, y: 13.828454}
-  m_Border: {x: 106.92388, y: 111, z: 106.92388, w: 110.92389}
+    width: 264
+    height: 277
+  m_Offset: {x: 0, y: 13.7904053}
+  m_Border: {x: 111, y: 111, z: 111, w: 111}
   m_PixelsToUnits: 100
-  m_Pivot: {x: 0.5, y: 0.54993594}
+  m_Pivot: {x: 0.5, y: 0.549784839}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 0
       width: 255.84776
       height: 276.9239
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 4.07612038, y: 0}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 100, y: 132, z: 100, w: 152.2904}

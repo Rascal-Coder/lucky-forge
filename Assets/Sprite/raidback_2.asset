@@ -9,14 +9,14 @@ Sprite:
   m_Name: raidback_2
   m_Rect:
     serializedVersion: 2
-    x: 672.0429
-    y: 732.01294
-    width: 339.88098
-    height: 279.94418
-  m_Offset: {x: 0.51661164, y: 4.514974}
+    x: 661
+    y: 729
+    width: 363
+    height: 295
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 100
-  m_Pivot: {x: 0.50152, y: 0.5161281}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 732.01294
       width: 339.88098
       height: 279.94418
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 11.0429077, y: 3.01293945}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 100, y: 842.5, z: 100, w: 876.5}

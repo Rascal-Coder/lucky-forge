@@ -9,14 +9,14 @@ Sprite:
   m_Name: statsicon_0
   m_Rect:
     serializedVersion: 2
-    x: 24.07612
-    y: 324.0761
-    width: 224.84775
-    height: 220.84775
-  m_Offset: {x: 9.500013, y: -0.99998236}
+    x: 0
+    y: 289
+    width: 292
+    height: 289
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 100
-  m_Pivot: {x: 0.5422509, y: 0.49547207}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 324.0761
       width: 224.84775
       height: 220.84775
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 24.0761204, y: 35.0761108}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 100, y: 146, z: 100, w: 433.5}

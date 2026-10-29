@@ -9,14 +9,14 @@ Sprite:
   m_Name: spears_7
   m_Rect:
     serializedVersion: 2
-    x: 96.84277
+    x: 91.8160248
     y: 23.097744
-    width: 41.946495
-    height: 221
-  m_Offset: {x: -1.0029639, y: -0.5451096}
+    width: 49.9940643
+    height: 219.909775
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 48.071217
-  m_Pivot: {x: 0.47608945, y: 0.49753344}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 23.097744
       width: 41.946495
       height: 221
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 5.02674866, y: 0}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 48.071217, y: 116.5, z: 48.071217, w: 133.5}

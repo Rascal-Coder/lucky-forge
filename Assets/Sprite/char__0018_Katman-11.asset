@@ -9,14 +9,14 @@ Sprite:
   m_Name: char__0018_Katman-11
   m_Rect:
     serializedVersion: 2
-    x: 40.026752
-    y: 15.07612
-    width: 168.89713
-    height: 224.84775
-  m_Offset: {x: 3.5246868, y: 0.5000141}
+    x: 0
+    y: 0
+    width: 256
+    height: 256
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 95.522385
-  m_Pivot: {x: 0.52086884, y: 0.5022238}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 15.07612
       width: 168.89713
       height: 224.84775
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 40.0267525, y: 15.0761204}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 95.522385, y: 128, z: 95.522385, w: 128}

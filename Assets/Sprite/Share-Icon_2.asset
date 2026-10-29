@@ -9,14 +9,14 @@ Sprite:
   m_Name: Share-Icon_2
   m_Rect:
     serializedVersion: 2
-    x: 3.0513167
-    y: 2.0761204
-    width: 63.872566
-    height: 53.854683
-  m_Offset: {x: 0.01239973, y: -0.0034619735}
+    x: 0
+    y: 0
+    width: 70
+    height: 58
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 100
-  m_Pivot: {x: 0.50019413, y: 0.49993572}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 2.0761204
       width: 63.872566
       height: 53.854683
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 3.05131674, y: 2.07612038}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 100, y: 35, z: 100, w: 29}

@@ -9,14 +9,14 @@ Sprite:
   m_Name: inappminiicons_3
   m_Rect:
     serializedVersion: 2
-    x: 379.0761
+    x: 378
     y: 318
-    width: 129.92387
+    width: 131
     height: 84
-  m_Offset: {x: -0.5380461, y: 0}
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 100
-  m_Pivot: {x: 0.49585876, y: 0.5}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 318
       width: 129.92387
       height: 84
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 1.07611084, y: 0}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 100, y: 443.5, z: 100, w: 360}

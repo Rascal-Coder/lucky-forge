@@ -9,14 +9,14 @@ Sprite:
   m_Name: guildraidbackbanner
   m_Rect:
     serializedVersion: 2
-    x: 11.026751
-    y: 7.0761204
-    width: 455.94647
-    height: 500.84778
-  m_Offset: {x: 0.5000209, y: -1.5000163}
+    x: 0
+    y: 0
+    width: 479.000031
+    height: 512
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 65.55698
-  m_Pivot: {x: 0.50109667, y: 0.49700505}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 7.0761204
       width: 455.94647
       height: 500.84778
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 11.0267506, y: 7.07612038}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 65.55698, y: 239.5, z: 65.55698, w: 256}

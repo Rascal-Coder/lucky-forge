@@ -9,14 +9,14 @@ Sprite:
   m_Name: white_circle
   m_Rect:
     serializedVersion: 2
-    x: 3.026751
-    y: 2.026751
-    width: 75.9465
-    height: 75.9465
-  m_Offset: {x: -4.5267643E-06, y: -4.5267643E-06}
-  m_Border: {x: 37.973248, y: 37.973248, z: 37.973255, w: 37.973255}
+    x: 0
+    y: 0
+    width: 82
+    height: 80
+  m_Offset: {x: 0, y: 0}
+  m_Border: {x: 41, y: 40, z: 41, w: 40}
   m_PixelsToUnits: 100
-  m_Pivot: {x: 0.49999994, y: 0.49999994}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 2.026751
       width: 75.9465
       height: 75.9465
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 3.02675104, y: 2.02675104}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 100, y: 41, z: 100, w: 40}

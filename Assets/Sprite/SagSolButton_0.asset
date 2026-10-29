@@ -9,14 +9,14 @@ Sprite:
   m_Name: SagSolButton_0
   m_Rect:
     serializedVersion: 2
-    x: 21.054127
-    y: 20.07612
-    width: 352.86975
-    height: 288.84778
-  m_Offset: {x: -1.4889978, y: -0.50001514}
+    x: 17
+    y: 16
+    width: 358
+    height: 296
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 100
-  m_Pivot: {x: 0.49578032, y: 0.49826893}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 20.07612
       width: 352.86975
       height: 288.84778
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 4.05412674, y: 4.07612038}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 100, y: 196, z: 100, w: 164}

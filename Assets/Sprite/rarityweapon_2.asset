@@ -9,14 +9,14 @@ Sprite:
   m_Name: rarityweapon_2
   m_Rect:
     serializedVersion: 2
-    x: 375.02676
-    y: 367.02676
-    width: 154.89713
-    height: 154.9465
-  m_Offset: {x: 0.024669476, y: 0.49998397}
+    x: 362
+    y: 356
+    width: 181
+    height: 178
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 100
-  m_Pivot: {x: 0.50015926, y: 0.5032268}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 367.02676
       width: 154.89713
       height: 154.9465
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 13.0267639, y: 11.0267639}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 100, y: 452.5, z: 100, w: 445}

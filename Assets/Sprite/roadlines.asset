@@ -9,14 +9,14 @@ Sprite:
   m_Name: roadlines
   m_Rect:
     serializedVersion: 2
-    x: 8.07612
-    y: 44.076122
-    width: 109.84776
-    height: 181.84775
-  m_Offset: {x: -0.50000155, y: -20.5}
+    x: 0
+    y: 0
+    width: 125
+    height: 229
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 100
-  m_Pivot: {x: 0.49544823, y: 0.38726833}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 44.076122
       width: 109.84776
       height: 181.84775
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 8.07612038, y: 44.0761223}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 100, y: 62.5, z: 100, w: 114.5}

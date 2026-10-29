@@ -9,14 +9,14 @@ Sprite:
   m_Name: heart
   m_Rect:
     serializedVersion: 2
-    x: 16.07612
-    y: 3.0761204
-    width: 222.84775
-    height: 232.84775
-  m_Offset: {x: 0.500003, y: 8.500006}
+    x: 0
+    y: 0
+    width: 256
+    height: 256
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 100
-  m_Pivot: {x: 0.5022437, y: 0.53650457}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 3.0761204
       width: 222.84775
       height: 232.84775
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 16.0761204, y: 3.07612038}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 100, y: 128, z: 100, w: 128}

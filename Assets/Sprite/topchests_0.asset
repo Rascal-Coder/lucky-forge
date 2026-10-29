@@ -9,14 +9,14 @@ Sprite:
   m_Name: topchests_0
   m_Rect:
     serializedVersion: 2
-    x: 14.026751
-    y: 33.076122
-    width: 237.9465
-    height: 199.89713
-  m_Offset: {x: 0.3333222, y: -0.02468746}
+    x: 0
+    y: 0
+    width: 266.666656
+    height: 266
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 100
-  m_Pivot: {x: 0.5014008, y: 0.4998765}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 33.076122
       width: 237.9465
       height: 199.89713
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 14.0267506, y: 33.0761223}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 100, y: 133.5, z: 100, w: 133}

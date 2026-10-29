@@ -9,14 +9,14 @@ Sprite:
   m_Name: yanchars_12
   m_Rect:
     serializedVersion: 2
-    x: 113.55908
-    y: 9.061015
-    width: 43.946495
-    height: 43.91223
-  m_Offset: {x: -1.2349337, y: -0.2553025}
+    x: 109.532333
+    y: 0
+    width: 49.5301247
+    height: 61.5236549
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 14.11093
-  m_Pivot: {x: 0.47189915, y: 0.49418607}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 9.061015
       width: 43.946495
       height: 43.91223
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 4.02674866, y: 9.06101513}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 14.11093, y: 134.5, z: 14.11093, w: 31}

@@ -479,5 +479,55 @@
     "pcm_changed": false,
     "meta_changed": false
   },
-  "limits": "Not complete clone. Fixtures use isolated explicit inputs; player sequence uses normal original callbacks and earned progress. No blanket physical GUI claim."
+  "limits": "Not complete clone. Fixtures use isolated explicit inputs; player sequence uses normal original callbacks and earned progress. No blanket physical GUI claim.",
+  "visual_audio_recovery": {
+    "updated": "2026-10-29T23:41:49",
+    "baselineCommit": "30a5e667ffce50c6e1aa24ca7dfb6ddfd7933f11",
+    "spriteGeometry": {
+      "checked": 1693,
+      "changed": 1213,
+      "fields": [
+        "m_Rect",
+        "m_Offset",
+        "m_Pivot",
+        "m_Border",
+        "m_RD.textureRectOffset"
+      ],
+      "guidTextureVerticesUvPreserved": true,
+      "loadedChecks": 13544,
+      "sourceContainmentExceptionsCopiedExactly": 255
+    },
+    "integrationChecks": 1192,
+    "musicChecks": 30,
+    "homeWorldChecks": 72,
+    "worldSweep": {
+      "chapters": 18,
+      "templates": 16,
+      "checks": 224,
+      "errors": [],
+      "passed": true,
+      "root": "Verification\\WindowsPlayer\\current11-visible-world-7a1a43129e9f44dfadf84eb1d525aff8"
+    },
+    "windowsBuild": {
+      "result": "Succeeded",
+      "generatedUtc": "2026-10-29T15:30:25.5518350Z",
+      "path": "D:/LuckyForge-Offline/Builds/Windows/LuckyForge-Offline.exe",
+      "unityVersion": "6000.0.58f2",
+      "errors": 0,
+      "warnings": 2184,
+      "bytes": 627535830,
+      "state": "Development recovery build; remaining gameplay methods are still being restored."
+    },
+    "coreFlowEvidence": {
+      "build": "10, immediately before shared convergence-only fix",
+      "root": "Verification\\WindowsPlayer\\current10-13973dbe689f42edb0fe9026201d7650",
+      "passed": true,
+      "level": 2,
+      "talentTutorialCompleted": true,
+      "rewardPopupsClosed": 1,
+      "errors": []
+    },
+    "adaptation": "Native single-step background recycler preserved as UpdateBolumPositionsOnce; desktop wrapper repeats original step to a stable state after large camera jumps. This wrapper is an explicit offline adaptation, not original native behavior.",
+    "captureBoundary": "GameView buffers and original UI callbacks; not physical mouse-input coverage. Synthetic chapter inputs in isolated profiles are not earned progression."
+  }
 }

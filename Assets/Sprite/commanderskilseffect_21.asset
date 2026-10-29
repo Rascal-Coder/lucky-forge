@@ -9,14 +9,14 @@ Sprite:
   m_Name: commanderskilseffect_21
   m_Rect:
     serializedVersion: 2
-    x: 278.81293
-    y: 6.0477047
-    width: 67.910965
-    height: 191.92555
-  m_Offset: {x: -5.5684047, y: 0.38952023}
+    x: 204.800003
+    y: 0
+    width: 204.800003
+    height: 204.800003
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 41.042084
-  m_Pivot: {x: 0.41800433, y: 0.50202954}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 6.0477047
       width: 67.910965
       height: 191.92555
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 74.0129242, y: 6.0477047}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 41.042084, y: 307, z: 41.042084, w: 102.5}

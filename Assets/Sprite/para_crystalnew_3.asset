@@ -9,14 +9,14 @@ Sprite:
   m_Name: para_crystalnew_3
   m_Rect:
     serializedVersion: 2
-    x: 903.0761
-    y: 312.0761
-    width: 294.84778
-    height: 264.84778
-  m_Offset: {x: -0.49999753, y: 5.5000076}
+    x: 900
+    y: 300
+    width: 300
+    height: 300
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 100
-  m_Pivot: {x: 0.49830422, y: 0.5207667}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 312.0761
       width: 294.84778
       height: 264.84778
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 3.07611084, y: 12.0761108}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 100, y: 1050, z: 100, w: 450}

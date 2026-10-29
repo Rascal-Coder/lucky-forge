@@ -9,14 +9,14 @@ Sprite:
   m_Name: skilliconsCommander3_30
   m_Rect:
     serializedVersion: 2
-    x: 769.62134
-    y: 516.1806
-    width: 122.84776
-    height: 123.84776
-  m_Offset: {x: -2.7878878, y: -0.26305777}
+    x: 764.545227
+    y: 514.104492
+    width: 127.42421
+    height: 127.473869
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 60.10576
-  m_Pivot: {x: 0.47730616, y: 0.49787596}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 516.1806
       width: 122.84776
       height: 123.84776
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 5.07611084, y: 2.07611084}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 60.10576, y: 828, z: 60.10576, w: 578}

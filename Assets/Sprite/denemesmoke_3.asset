@@ -9,14 +9,14 @@ Sprite:
   m_Name: denemesmoke_3
   m_Rect:
     serializedVersion: 2
-    x: 403.2
-    y: 189.28543
-    width: 60.973248
-    height: 117.89713
-  m_Offset: {x: -24.345654, y: 0.41719884}
+    x: 403.200012
+    y: 185.209305
+    width: 60.1600037
+    height: 126.88372
+  m_Offset: {x: -23.9390564, y: 3.05175781e-05}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 25.581396
-  m_Pivot: {x: 0.1007158, y: 0.50353867}
+  m_Pivot: {x: 0.102077276, y: 0.500000238}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 189.28543
       width: 60.973248
       height: 117.89713
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 0, y: 4.0761261}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 25.581396, y: 409.56094, z: 25.581396, w: 249.00003}

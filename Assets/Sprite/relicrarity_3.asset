@@ -9,14 +9,14 @@ Sprite:
   m_Name: relicrarity_3
   m_Rect:
     serializedVersion: 2
-    x: 7.0761204
-    y: 87.15899
-    width: 71.84776
-    height: 81.84776
-  m_Offset: {x: -0.33333603, y: -1.9585644}
+    x: 0
+    y: 84.0828705
+    width: 85.3333359
+    height: 84.0828705
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 47.14549
-  m_Pivot: {x: 0.49536052, y: 0.47607064}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 87.15899
       width: 71.84776
       height: 81.84776
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 7.07612038, y: 3.07611847}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 47.14549, y: 43, z: 47.14549, w: 126.5}

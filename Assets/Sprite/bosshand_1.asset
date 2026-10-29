@@ -9,14 +9,14 @@ Sprite:
   m_Name: bosshand_1
   m_Rect:
     serializedVersion: 2
-    x: 154.03629
-    y: 25.02675
-    width: 109.936966
-    height: 95.97325
-  m_Offset: {x: -0.0047671283, y: -0.5133733}
+    x: 153
+    y: 24
+    width: 112
+    height: 97
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 100
-  m_Pivot: {x: 0.49995664, y: 0.49465087}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 25.02675
       width: 109.936966
       height: 95.97325
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 1.0362854, y: 1.02675056}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 100, y: 209, z: 100, w: 72.5}

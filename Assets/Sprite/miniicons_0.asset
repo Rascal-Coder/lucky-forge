@@ -9,14 +9,14 @@ Sprite:
   m_Name: miniicons_0
   m_Rect:
     serializedVersion: 2
-    x: 0.05131668
-    y: 254.30177
-    width: 131.92194
-    height: 167.84775
-  m_Offset: {x: -0.24582598, y: -0.112815805}
+    x: 0
+    y: 252.225647
+    width: 131.532913
+    height: 171.774368
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 54.352444
-  m_Pivot: {x: 0.49813658, y: 0.49932787}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 254.30177
       width: 131.92194
       height: 167.84775
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 0.0513166785, y: 2.0761261}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 54.352444, y: 66, z: 54.352444, w: 338}

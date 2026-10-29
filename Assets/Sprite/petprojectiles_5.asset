@@ -9,14 +9,14 @@ Sprite:
   m_Name: petprojectiles_5
   m_Rect:
     serializedVersion: 2
-    x: 375.0761
-    y: 197.07613
-    width: 102.84775
-    height: 127.89713
-  m_Offset: {x: -1.00444, y: -16.846607}
+    x: 341
+    y: 171
+    width: 170.5
+    height: 170.5
+  m_Offset: {x: -0.754455566, y: -12.0719147}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 50
-  m_Pivot: {x: 0.49023372, y: 0.36828002}
+  m_Pivot: {x: 0.495575041, y: 0.429196984}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 197.07613
       width: 102.84775
       height: 127.89713
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 34.0761108, y: 26.0761261}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 50, y: 425.74554, z: 50, w: 244.42809}

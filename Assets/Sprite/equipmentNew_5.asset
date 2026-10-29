@@ -9,14 +9,14 @@ Sprite:
   m_Name: equipmentNew_5
   m_Rect:
     serializedVersion: 2
-    x: 1.026751
-    y: 432.8261
-    width: 201.9465
-    height: 149.84775
-  m_Offset: {x: 0.39999986, y: 4.375012}
+    x: 0
+    y: 409.75
+    width: 204.800003
+    height: 204.75
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 50
-  m_Pivot: {x: 0.5019807, y: 0.5291964}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 432.8261
       width: 201.9465
       height: 149.84775
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 1.02675104, y: 23.0761108}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 50, y: 102.5, z: 50, w: 512}

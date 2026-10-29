@@ -9,14 +9,14 @@ Sprite:
   m_Name: chefs2_2
   m_Rect:
     serializedVersion: 2
-    x: 101.07612
-    y: 9.026751
-    width: 297.91098
-    height: 400.89713
-  m_Offset: {x: 5.968406, y: 46.52469}
+    x: 0
+    y: 0
+    width: 512
+    height: 512
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 100
-  m_Pivot: {x: 0.5200342, y: 0.61605144}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 9.026751
       width: 297.91098
       height: 400.89713
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 101.076118, y: 9.02675056}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 100, y: 256, z: 100, w: 256}

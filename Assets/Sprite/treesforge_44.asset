@@ -9,14 +9,14 @@ Sprite:
   m_Name: treesforge_44
   m_Rect:
     serializedVersion: 2
-    x: 312.06308
-    y: 576.02673
-    width: 174.93694
-    height: 161.89713
-  m_Offset: {x: -0.03154705, y: 0.02470354}
+    x: 312
+    y: 576
+    width: 175
+    height: 162
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 100
-  m_Pivot: {x: 0.49981967, y: 0.5001526}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 576.02673
       width: 174.93694
       height: 161.89713
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 0.063079834, y: 0.0267333984}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 100, y: 399.5, z: 100, w: 657}

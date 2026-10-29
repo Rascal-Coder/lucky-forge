@@ -9,14 +9,14 @@ Sprite:
   m_Name: eventagac
   m_Rect:
     serializedVersion: 2
-    x: 13.047705
-    y: 24.012913
-    width: 335.8762
-    height: 463.97418
-  m_Offset: {x: 0.014214044, y: 0}
+    x: 0
+    y: 0
+    width: 362
+    height: 512
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 82.27273
-  m_Pivot: {x: 0.5000423, y: 0.5}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 24.012913
       width: 335.8762
       height: 463.97418
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 13.0477047, y: 24.0129128}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 82.27273, y: 181, z: 82.27273, w: 256}

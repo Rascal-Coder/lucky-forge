@@ -9,14 +9,14 @@ Sprite:
   m_Name: corner_2
   m_Rect:
     serializedVersion: 2
-    x: 365.1145
-    y: 364.2105
-    width: 126.847755
-    height: 126.89713
-  m_Offset: {x: -2.5543952, y: 1.3969245}
+    x: 360.038391
+    y: 364.134399
+    width: 131.89119
+    height: 129.843201
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 40.96
-  m_Pivot: {x: 0.4798625, y: 0.5110083}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 364.2105
       width: 126.847755
       height: 126.89713
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 5.07611084, y: 0.0761108398}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 40.96, y: 426, z: 40.96, w: 429}

@@ -9,14 +9,14 @@ Sprite:
   m_Name: HeroSkins_7
   m_Rect:
     serializedVersion: 2
-    x: 210.7317
-    y: 314.2764
-    width: 84
-    height: 84
-  m_Offset: {x: -0.76422894, y: -0.6341475}
+    x: 210.731705
+    y: 314.276398
+    width: 82.4715424
+    height: 82.7317047
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 26.016258
-  m_Pivot: {x: 0.49090204, y: 0.49245062}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:

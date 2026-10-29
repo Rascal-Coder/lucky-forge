@@ -9,14 +9,14 @@ Sprite:
   m_Name: bordernewoutline
   m_Rect:
     serializedVersion: 2
-    x: 3.0761204
-    y: 3.0761204
-    width: 315.84778
-    height: 315.84778
-  m_Offset: {x: -1.8825995E-05, y: -1.8825995E-05}
-  m_Border: {x: 155.92387, y: 155.92387, z: 155.9239, w: 155.9239}
+    x: 0
+    y: 0
+    width: 322
+    height: 322
+  m_Offset: {x: 0, y: 0}
+  m_Border: {x: 159, y: 159, z: 159, w: 159}
   m_PixelsToUnits: 100
-  m_Pivot: {x: 0.49999994, y: 0.49999994}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 3.0761204
       width: 315.84778
       height: 315.84778
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 3.07612038, y: 3.07612038}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 100, y: 161, z: 100, w: 161}

@@ -9,14 +9,14 @@ Sprite:
   m_Name: btn_borders3_1
   m_Rect:
     serializedVersion: 2
-    x: 66.88792
-    y: 7.0813646
-    width: 59
-    height: 59
-  m_Offset: {x: -0.52765584, y: -0.5223105}
-  m_Border: {x: 26.829695, y: 26.834644, z: 27.885008, w: 27.879265}
+    x: 66.8879166
+    y: 7.08136463
+    width: 57.9446869
+    height: 57.9553795
+  m_Offset: {x: 0, y: 0}
+  m_Border: {x: 26.8296947, y: 26.8346443, z: 26.8296947, w: 26.8346443}
   m_PixelsToUnits: 18.631733
-  m_Pivot: {x: 0.49105668, y: 0.49114728}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:

@@ -9,14 +9,14 @@ Sprite:
   m_Name: dailywarenemy_3
   m_Rect:
     serializedVersion: 2
-    x: 594.0429
-    y: 15.07612
-    width: 376.93033
-    height: 467.89713
-  m_Offset: {x: -14.50807, y: 6.975306}
+    x: 512
+    y: 0
+    width: 512
+    height: 512
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 100
-  m_Pivot: {x: 0.46150994, y: 0.5149078}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 15.07612
       width: 376.93033
       height: 467.89713
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 82.0429077, y: 15.0761204}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 100, y: 768, z: 100, w: 256}

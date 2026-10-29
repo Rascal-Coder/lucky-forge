@@ -9,14 +9,14 @@ Sprite:
   m_Name: clan_icon_7
   m_Rect:
     serializedVersion: 2
-    x: 0.026750982
+    x: 0
     y: 0
-    width: 31.97325
+    width: 32
     height: 32
-  m_Offset: {x: -0.013375536, y: 0}
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 24.615385
-  m_Pivot: {x: 0.49958166, y: 0.5}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 0
       width: 31.97325
       height: 32
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 0.0267509818, y: 0}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 24.615385, y: 16, z: 24.615385, w: 16}

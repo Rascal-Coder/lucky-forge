@@ -9,14 +9,14 @@ Sprite:
   m_Name: closebtns_5
   m_Rect:
     serializedVersion: 2
-    x: 343.23227
-    y: 3.561644
-    width: 155
-    height: 162.92387
-  m_Offset: {x: -0.5931859, y: 5.4421816}
+    x: 343.232269
+    y: 3.56164408
+    width: 153.813629
+    height: 173.808228
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 71.210014
-  m_Pivot: {x: 0.496173, y: 0.5334032}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:

@@ -9,14 +9,14 @@ Sprite:
   m_Name: bottombtns_5
   m_Rect:
     serializedVersion: 2
-    x: 403.0761
-    y: 400.0761
-    width: 348.84778
-    height: 377.9239
-  m_Offset: {x: 5.9999924, y: -5.5380554}
+    x: 389
+    y: 389
+    width: 389
+    height: 389
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 100
-  m_Pivot: {x: 0.51719946, y: 0.4853461}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 400.0761
       width: 348.84778
       height: 377.9239
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 14.0761108, y: 11.0761108}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 100, y: 583.5, z: 100, w: 583.5}

@@ -9,14 +9,14 @@ Sprite:
   m_Name: talentbackNew_1
   m_Rect:
     serializedVersion: 2
-    x: 508.84473
-    y: 198.44592
-    width: 486.84778
-    height: 327.84778
-  m_Offset: {x: -0.8415913, y: -0.6836116}
-  m_Border: {x: 109.64565, y: 105.72336, z: 111.32885, w: 49.92651}
+    x: 507.768616
+    y: 193.369797
+    width: 487.316803
+    height: 336.632812
+  m_Offset: {x: 0, y: 0}
+  m_Border: {x: 110.721764, y: 110.799484, z: 110.721764, w: 53.6354179}
   m_PixelsToUnits: 70.523415
-  m_Pivot: {x: 0.49827135, y: 0.49791485}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 198.44592
       width: 486.84778
       height: 327.84778
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 1.07611084, y: 5.0761261}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 70.523415, y: 751.5, z: 70.523415, w: 362}

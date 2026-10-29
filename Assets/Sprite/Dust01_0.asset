@@ -9,14 +9,14 @@ Sprite:
   m_Name: Dust01_0
   m_Rect:
     serializedVersion: 2
-    x: 4.0761204
-    y: 134.07613
-    width: 123.84776
-    height: 115.84776
-  m_Offset: {x: -2.0000007, y: -6.9050648E-06}
+    x: 0
+    y: 128
+    width: 128
+    height: 128
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 100
-  m_Pivot: {x: 0.48385113, y: 0.49999994}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 134.07613
       width: 123.84776
       height: 115.84776
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 4.07612038, y: 6.0761261}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 100, y: 64, z: 100, w: 192}

@@ -11,12 +11,12 @@ Sprite:
     serializedVersion: 2
     x: 115
     y: 55.75
-    width: 139.92387
-    height: 137.99403
-  m_Offset: {x: 0.5380624, y: 0.002985706}
+    width: 141
+    height: 138
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 25
-  m_Pivot: {x: 0.5038454, y: 0.50002164}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:

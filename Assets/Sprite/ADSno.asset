@@ -9,14 +9,14 @@ Sprite:
   m_Name: ADSno
   m_Rect:
     serializedVersion: 2
-    x: 6.0761204
-    y: 3.026751
-    width: 51.847755
-    height: 58.897125
-  m_Offset: {x: 3.090367E-06, y: -0.47531337}
+    x: 0
+    y: 0
+    width: 64
+    height: 64
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 9.846154
-  m_Pivot: {x: 0.50000006, y: 0.49192977}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 3.026751
       width: 51.847755
       height: 58.897125
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 6.07612038, y: 3.02675104}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 9.846154, y: 32, z: 9.846154, w: 32}

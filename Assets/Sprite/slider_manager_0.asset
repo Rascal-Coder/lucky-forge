@@ -9,14 +9,14 @@ Sprite:
   m_Name: slider_manager_0
   m_Rect:
     serializedVersion: 2
-    x: 1.1851852
-    y: 1.1886792
-    width: 124
-    height: 124
-  m_Offset: {x: -0.22222078, y: -0.18868423}
+    x: 1.18518519
+    y: 1.18867922
+    width: 123.555557
+    height: 123.622635
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 29.62963
-  m_Pivot: {x: 0.4982079, y: 0.49847835}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:

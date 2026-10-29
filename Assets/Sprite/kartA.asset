@@ -9,14 +9,14 @@ Sprite:
   m_Name: kartA
   m_Rect:
     serializedVersion: 2
-    x: 5.0513167
-    y: 3.026751
-    width: 294.9219
-    height: 460.94647
-  m_Offset: {x: -0.51227015, y: 1.0000187}
+    x: 0
+    y: 0
+    width: 304
+    height: 469
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 100
-  m_Pivot: {x: 0.49826303, y: 0.5021695}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 3.026751
       width: 294.9219
       height: 460.94647
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 5.05131674, y: 3.02675104}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 100, y: 152, z: 100, w: 234.5}

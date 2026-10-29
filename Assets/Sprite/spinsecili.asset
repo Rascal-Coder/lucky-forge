@@ -9,14 +9,14 @@ Sprite:
   m_Name: spinsecili
   m_Rect:
     serializedVersion: 2
-    x: 8.07612
-    y: 7.0761204
-    width: 335.88098
-    height: 354.84778
-  m_Offset: {x: -0.016616656, y: -0.5000102}
+    x: 0
+    y: 0
+    width: 352
+    height: 368
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 100
-  m_Pivot: {x: 0.49995053, y: 0.49859092}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 7.0761204
       width: 335.88098
       height: 354.84778
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 8.07612038, y: 7.07612038}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 100, y: 176, z: 100, w: 184}

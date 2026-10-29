@@ -1,7 +1,7 @@
 using System;using System.Collections.Generic;using System.IO;using System.Linq;using System.Reflection;using TMPro;using UnityEditor;using UnityEngine;using UnityEngine.UI;
 namespace LuckyForge.Offline.Editor{
 public static class WaveRewardLifecycleVerification{
- [Serializable]public class Result{public bool passed;public int checks;public string testRoot;public string saveFile;public string rawCoin;public string rawDataCoin;public string coinBeforeSaveR;public string dataCoinBeforeSaveR;public string parsedCoinR;public string parsedDataCoinR;public string coinAfterReloadR;public string dataCoinAfterReloadR;public string freshCoinBeforeR;public string freshCoinAfterR;public List<string> failures=new List<string>();public List<string> sourceRules=new List<string>();}
+ [Serializable]public class Result{public bool playMode;public bool passed;public int checks;public string testRoot;public string saveFile;public string rawCoin;public string rawDataCoin;public string coinBeforeSaveR;public string dataCoinBeforeSaveR;public string parsedCoinR;public string parsedDataCoinR;public string coinAfterReloadR;public string dataCoinAfterReloadR;public string freshCoinBeforeR;public string freshCoinAfterR;public List<string> failures=new List<string>();public List<string> sourceRules=new List<string>();}
  static void Check(Result r,bool ok,string label){r.checks++;if(!ok)r.failures.Add(label);}
  static GameObject Child(Transform parent,string name){var g=new GameObject(name,typeof(RectTransform));g.transform.SetParent(parent,false);return g;}
  static T Add<T>(Transform p,string n)where T:Component=>Child(p,n).AddComponent<T>();
@@ -11,7 +11,7 @@ public static class WaveRewardLifecycleVerification{
  static string RoundTrip(double value)=>value.ToString("R",System.Globalization.CultureInfo.InvariantCulture);
  static void Flush(Currencys driver){
   // The original Coin/Crystal/Energy wrappers schedule timer-based persistence.
-  // In this non-playing fixture, advance those original Update branches explicitly.
+  // This synchronous PlayMode fixture advances those original Update branches explicitly before the next frame.
   foreach(string name in new[]{"SaveCoinTimer","SaveCrystalTimer","SaveEnergyTimer"})typeof(Currencys).GetField(name,BindingFlags.Static|BindingFlags.NonPublic).SetValue(null,-1f);
   Call(driver,"Update");
   var disk=new ES3Settings("medupac.es3",ES3.Location.File);ES3.StoreCachedFile("medupac.es3",disk);OfflineKeyStore.ResetMemoryForVerification();ES3.CacheFile("medupac.es3",disk);
@@ -32,6 +32,7 @@ public static class WaveRewardLifecycleVerification{
    }
    int wave=(i+1)*5;holder.GetComponent<Button>().onClick.AddListener(()=>m.CheckAndGiveWaveRewards(wave));
   }
+  HomeWorldFixtureSupport.Setup(m,root);
   return m;
  }
  static Transform Panel(BolumOdulleri m,int i)=>m.waveRewardBoxes[i].transform.GetChild(1);
@@ -131,7 +132,7 @@ GameManager.Level=0;m.UpdateMaxZForCurrentLevel();Check(r,m.cameraHandler.maxZ==
  }
  public static Result RunChecks(string suppliedRoot=null){
   var r=new Result{testRoot=Path.GetFullPath(suppliedRoot??Path.Combine(Path.GetTempPath(),"LuckyForgeWaveRewardChecks",Guid.NewGuid().ToString("N")))};
-  if(EditorApplication.isPlayingOrWillChangePlaymode){r.failures.Add("Requires isolated non-playing Editor process.");return r;}Directory.CreateDirectory(r.testRoot);
+  r.playMode=Application.isPlaying;if(!r.playMode){r.failures.Add("Requires isolated real PlayMode; use VisualFixChecks.RunWaveBatch or RunIntegrationBatch.");return r;}Directory.CreateDirectory(r.testRoot);
   var saved=new Dictionary<FieldInfo,object>();foreach(var type in new[]{typeof(Currencys),typeof(GameManager),typeof(Basarimlar),typeof(GunlukGorevler)})foreach(var f in type.GetFields(BindingFlags.Static|BindingFlags.Public|BindingFlags.NonPublic))if(!f.IsLiteral&&!f.IsInitOnly)saved[f]=f.GetValue(null);
   var oldSound=SoundManager.instance;var root=new GameObject("WaveRewardLifecycleVerification");root.SetActive(false);OfflineKeyStore.SetVerificationRoot(r.testRoot);
   try{
@@ -171,6 +172,8 @@ GameManager.Level=0;m.UpdateMaxZForCurrentLevel();Check(r,m.cameraHandler.maxZ==
    Check(r,r.rawCoin==expectedRawCoin&&r.rawDataCoin==expectedRawDataCoin&&Currencys.Coin==parsedCoin&&DataCoin()==parsedDataCoin&&ES3.Load<bool>("WaveOdul_0_5")&&ES3.Load<bool>("WaveOdul_0_10"),"physical store reload obeys original ToString/Parse contract and preserves both claim keys");
    r.freshCoinBeforeR=RoundTrip(Currencys.Coin);var m2=Fixture(root.transform);Call(m2,"Start");m2.bestSurvive=10;m2.CheckAndGiveWaveRewards(10);r.freshCoinAfterR=RoundTrip(Currencys.Coin);Check(r,Currencys.Coin==parsedCoin&&DataCoin()==parsedDataCoin&&r.freshCoinAfterR==r.freshCoinBeforeR&&!Panel(m2,0).gameObject.activeSelf&&!Panel(m2,1).gameObject.activeSelf,"fresh manager cannot regrant physically saved rewards");
    VerifyNativeOracle(r,m);
+   // Keep the existing world alive: native OnEnable first moves the camera, then
+   // BolumuYerlestir schedules old chunk destruction under real PlayMode.
    Zero();GameManager.Level=1;GameManager.BestSurvive=0;m.es3KeyPrefix="previous_";m.levelalindi=true;Call(m,"OnEnable");
    Check(r,Currencys.Coin==1620.00006103515625d&&ES3.KeyExists("previous_0_5")&&ES3.KeyExists("previous_0_10"),"previouschapter0 settlement uses current level1 multiplier and retains chapter0 keys");
    Check(r,!m.levelalindi&&m.bestSurvive==0&&!m.portal.gameObject.activeSelf,"source auto settlement resets flag/best UI without changing actual current level");

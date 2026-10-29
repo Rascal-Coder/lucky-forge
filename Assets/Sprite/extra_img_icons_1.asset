@@ -9,14 +9,14 @@ Sprite:
   m_Name: extra_img_icons_1
   m_Rect:
     serializedVersion: 2
-    x: 59.835617
-    y: 163.08148
-    width: 93
-    height: 93
-  m_Offset: {x: -0.4360722, y: -0.5148166}
+    x: 59.8356171
+    y: 163.081482
+    width: 92.1278534
+    height: 91.9703674
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 23.703703
-  m_Pivot: {x: 0.49531105, y: 0.49446434}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:

@@ -9,14 +9,14 @@ Sprite:
   m_Name: bossweapons_11
   m_Rect:
     serializedVersion: 2
-    x: 653.2534
-    y: 20.6027
-    width: 139.93034
-    height: 182.84775
-  m_Offset: {x: 2.1147585, y: 3.4526687}
+    x: 653.226685
+    y: 11.5265779
+    width: 144.213333
+    height: 207.905319
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 42.666668
-  m_Pivot: {x: 0.51511294, y: 0.51888275}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 20.6027
       width: 139.93034
       height: 182.84775
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 0.0267333984, y: 9.07612133}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 42.666668, y: 725.5, z: 42.666668, w: 115.5}

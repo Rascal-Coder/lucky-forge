@@ -60,6 +60,12 @@ namespace LuckyForge.Offline.Editor
         }
         public static void RunBatch()
         {
+            VisualFixChecks.RunIntegrationBatch();
+        }
+        public static void RunWithWaveResult(WaveRewardLifecycleVerification.Result waveRewards, HomeWorldVerification.Result homeWorld=null)
+        {
+            if(EditorApplication.isPlayingOrWillChangePlaymode)throw new System.InvalidOperationException("Remaining integration checks require EditMode.");
+            if(waveRewards==null||!waveRewards.playMode)throw new System.InvalidOperationException("An actual isolated Wave PlayMode result is required; Wave is never rerun in EditMode.");
             var persistence=OfflinePersistenceVerification.RunChecks();
             var merge=ForgeMergeVerification.RunChecks();
             var slots=SlotMachineVerification.RunChecks();
@@ -80,7 +86,6 @@ namespace LuckyForge.Offline.Editor
             var achievements=AchievementLifecycleVerification.RunChecks();
             var homeForge=HomeForgeVerification.RunChecks();
             var localSettings=LocalSettingsVerification.RunChecks();
-            var waveRewards=WaveRewardLifecycleVerification.RunChecks();
             var lifecycle=WelcomeLifecycleVerification.RunChecks();
             var growthNavigation=GrowthNavigationVerification.RunChecks();
             var mainLoop=MainLoopVerification.RunChecks();
@@ -95,6 +100,7 @@ namespace LuckyForge.Offline.Editor
             var weaponInformation=WeaponInformationVerification.RunChecks();
             var information=InfoPanelVerification.RunChecks();
             var report=new VerificationReport();
+            if(homeWorld!=null)Record(report,"home-world",homeWorld);
             Record(report,"persistence",persistence);
             Record(report,"forge-merge",merge);
             Record(report,"slots",slots);

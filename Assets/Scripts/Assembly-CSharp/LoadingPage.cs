@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 // Recovered local startup from IL2CPP RVAs in startup/method-index.json.
-// UI null guards and omission of SDK/audio callbacks are offline integration choices.
+// UI null guards and omission of SDK callbacks are offline integration choices.
 // Online entitlements are not granted and server services are not emulated.
 public class LoadingPage : MonoBehaviour
 {
@@ -64,6 +64,8 @@ public class LoadingPage : MonoBehaviour
         if (_text != null) _text.text = "Loading.";
         yield return new WaitForSeconds(0.3f);
         if (_text != null) _text.text = "Loading";
+        // Original <Start>d__7.MoveNext 0x2007530..0x2007590.
+        SoundManager.instance.BackgroundMusic(SoundManager._lobby);
         yield return new WaitForSeconds(1.5f);
         if (_text != null) _text.text = "Loading.";
         OfflineRuntimeProbe.RecordStartupCheckpoint("LoadAsync.begin");

@@ -9,14 +9,14 @@ Sprite:
   m_Name: chestcoinparareklam
   m_Rect:
     serializedVersion: 2
-    x: 9.07612
-    y: 8.07612
-    width: 109.84776
-    height: 109.84776
-  m_Offset: {x: -6.547437E-06, y: -6.547437E-06}
+    x: 0
+    y: 0
+    width: 127.999992
+    height: 125.999992
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 17.021276
-  m_Pivot: {x: 0.49999994, y: 0.49999994}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 8.07612
       width: 109.84776
       height: 109.84776
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 9.07612038, y: 8.07612038}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 17.021276, y: 64, z: 17.021276, w: 63}

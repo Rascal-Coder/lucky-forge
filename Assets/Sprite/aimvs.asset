@@ -9,10 +9,10 @@ Sprite:
   m_Name: aimvs
   m_Rect:
     serializedVersion: 2
-    x: 8.07612
-    y: 8.07612
-    width: 111.84776
-    height: 111.84776
+    x: 0
+    y: 0
+    width: 128
+    height: 128
   m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 25
@@ -111,7 +111,7 @@ Sprite:
       y: 8.07612
       width: 111.84776
       height: 111.84776
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 8.07612038, y: 8.07612038}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 25, y: 64, z: 25, w: 64}

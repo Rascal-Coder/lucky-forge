@@ -9,14 +9,14 @@ Sprite:
   m_Name: noads1
   m_Rect:
     serializedVersion: 2
-    x: 7.026751
-    y: 49.076122
-    width: 767.89716
-    height: 926.86975
-  m_Offset: {x: 0.5246642, y: -0.5109955}
+    x: 0
+    y: 0
+    width: 783
+    height: 1024
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 84.19354
-  m_Pivot: {x: 0.50068325, y: 0.4994487}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 49.076122
       width: 767.89716
       height: 926.86975
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 7.02675104, y: 49.0761223}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 84.19354, y: 391.5, z: 84.19354, w: 512}

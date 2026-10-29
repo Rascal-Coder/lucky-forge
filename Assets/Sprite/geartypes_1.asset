@@ -9,14 +9,14 @@ Sprite:
   m_Name: geartypes_1
   m_Rect:
     serializedVersion: 2
-    x: 193.46506
-    y: 201.57613
-    width: 125.847755
-    height: 109.847755
-  m_Offset: {x: -0.6666762, y: -0.7500023}
+    x: 170.388931
+    y: 170.5
+    width: 170.666656
+    height: 170.5
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 41.636143
-  m_Pivot: {x: 0.49470252, y: 0.49317235}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 201.57613
       width: 125.847755
       height: 109.847755
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 23.0761261, y: 31.0761261}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 41.636143, y: 256, z: 41.636143, w: 255.5}

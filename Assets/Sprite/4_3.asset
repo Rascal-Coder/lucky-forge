@@ -9,14 +9,14 @@ Sprite:
   m_Name: 4_3
   m_Rect:
     serializedVersion: 2
-    x: 210.27675
+    x: 210.25
     y: 87.75
-    width: 40.897125
-    height: 95
-  m_Offset: {x: -0.22531156, y: -0.6250005}
+    width: 40.5
+    height: 93.75
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 25
-  m_Pivot: {x: 0.49449077, y: 0.49342105}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 87.75
       width: 40.897125
       height: 95
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 0.0267486572, y: 0}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 25, y: 230.5, z: 25, w: 134.5}

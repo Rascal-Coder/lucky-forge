@@ -9,14 +9,14 @@ Sprite:
   m_Name: enemies2_5
   m_Rect:
     serializedVersion: 2
-    x: 290.02676
-    y: 517.0761
-    width: 189.9465
-    height: 249.89713
-  m_Offset: {x: -1.0000169, y: -2.024674}
+    x: 256
+    y: 512
+    width: 256
+    height: 256
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 42.666668
-  m_Pivot: {x: 0.49473527, y: 0.49189797}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 517.0761
       width: 189.9465
       height: 249.89713
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 34.0267639, y: 5.07611084}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 42.666668, y: 384, z: 42.666668, w: 640}

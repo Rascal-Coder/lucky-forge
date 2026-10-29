@@ -9,14 +9,14 @@ Sprite:
   m_Name: mistikicon_1
   m_Rect:
     serializedVersion: 2
-    x: 79.224556
-    y: 36.940063
-    width: 222.84775
-    height: 175.84775
-  m_Offset: {x: -2.7353456, y: -2.6108763}
+    x: 64.1484375
+    y: 27.863945
+    width: 247.529297
+    height: 188.778229
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 69.65987
-  m_Pivot: {x: 0.4877255, y: 0.48515263}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 36.940063
       width: 222.84775
       height: 175.84775
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 15.0761185, y: 9.07611847}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 69.65987, y: 188, z: 69.65987, w: 122}

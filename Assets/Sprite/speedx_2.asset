@@ -9,14 +9,14 @@ Sprite:
   m_Name: speedx_2
   m_Rect:
     serializedVersion: 2
-    x: 730.08575
-    y: 5.0761204
-    width: 271.84778
-    height: 308.84778
-  m_Offset: {x: -13.497586, y: 1.4999827}
+    x: 682.009644
+    y: 0
+    width: 341.004822
+    height: 322
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 98.47095
-  m_Pivot: {x: 0.45034873, y: 0.5048567}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 5.0761204
       width: 271.84778
       height: 308.84778
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 48.0761108, y: 5.07612038}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 98.47095, y: 853, z: 98.47095, w: 161}

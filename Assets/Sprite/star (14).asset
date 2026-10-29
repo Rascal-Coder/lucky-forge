@@ -10,9 +10,9 @@ Sprite:
   m_Rect:
     serializedVersion: 2
     x: 0
-    y: 3.026751
+    y: 0
     width: 256
-    height: 249.9465
+    height: 256
   m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 100
@@ -111,7 +111,7 @@ Sprite:
       y: 3.026751
       width: 256
       height: 249.9465
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 0, y: 3.02675104}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 100, y: 128, z: 100, w: 128}

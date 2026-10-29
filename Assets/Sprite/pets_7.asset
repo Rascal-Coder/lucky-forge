@@ -9,14 +9,14 @@ Sprite:
   m_Name: pets_7
   m_Rect:
     serializedVersion: 2
-    x: 422.39545
-    y: 35.953587
-    width: 184.86177
-    height: 184.84775
-  m_Offset: {x: -2.8263147, y: -85.99188}
+    x: 341.333344
+    y: 0.877463579
+    width: 341.333344
+    height: 341.333344
+  m_Offset: {x: 0, y: -129.158554}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 87.74636
-  m_Pivot: {x: 0.4847112, y: 0.03479616}
+  m_Pivot: {x: 0.5, y: 0.121605799}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 35.953587
       width: 184.86177
       height: 184.84775
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 81.0621033, y: 35.0761223}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 87.74636, y: 512, z: 87.74636, w: 42.341446}

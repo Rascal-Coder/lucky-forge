@@ -9,14 +9,14 @@ Sprite:
   m_Name: ingots_4
   m_Rect:
     serializedVersion: 2
-    x: 43.74279
-    y: 45.7815
-    width: 41.897125
-    height: 37.847755
-  m_Offset: {x: -0.6913511, y: -0.6666619}
+    x: 42.6666679
+    y: 42.7053833
+    width: 42.6666679
+    height: 42.6666679
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 11.594203
-  m_Pivot: {x: 0.48349884, y: 0.4823857}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 45.7815
       width: 41.897125
       height: 37.847755
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 1.07612228, y: 3.07611847}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 11.594203, y: 64, z: 11.594203, w: 64}

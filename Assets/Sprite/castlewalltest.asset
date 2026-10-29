@@ -9,14 +9,14 @@ Sprite:
   m_Name: castlewalltest
   m_Rect:
     serializedVersion: 2
-    x: 32.026752
-    y: 25.07612
-    width: 1334.8971
-    height: 334.84778
-  m_Offset: {x: 0.5247382, y: -2.5000196}
+    x: 0
+    y: 0
+    width: 1400
+    height: 380
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 100
-  m_Pivot: {x: 0.5003931, y: 0.49253386}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 25.07612
       width: 1334.8971
       height: 334.84778
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 32.0267525, y: 25.0761204}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 100, y: 700, z: 100, w: 190}

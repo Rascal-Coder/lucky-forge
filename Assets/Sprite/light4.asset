@@ -9,14 +9,14 @@ Sprite:
   m_Name: light4
   m_Rect:
     serializedVersion: 2
-    x: 29.054127
+    x: 0
     y: 0
-    width: 452.86975
+    width: 512
     height: 512
-  m_Offset: {x: 0.51100713, y: 0}
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 55.956287
-  m_Pivot: {x: 0.5011284, y: 0.5}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 0
       width: 452.86975
       height: 512
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 29.0541267, y: 0}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 55.956287, y: 256, z: 55.956287, w: 256}

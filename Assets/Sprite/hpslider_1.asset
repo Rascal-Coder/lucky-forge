@@ -9,14 +9,14 @@ Sprite:
   m_Name: hpslider_1
   m_Rect:
     serializedVersion: 2
-    x: 13.07612
-    y: 22.07612
-    width: 859.8478
-    height: 37.880974
-  m_Offset: {x: -1.9999903, y: -3.5166073}
+    x: 0
+    y: 13
+    width: 882
+    height: 49
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 100
-  m_Pivot: {x: 0.49767402, y: 0.40716693}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 22.07612
       width: 859.8478
       height: 37.880974
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 13.0761204, y: 9.07612038}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 100, y: 441, z: 100, w: 37.5}

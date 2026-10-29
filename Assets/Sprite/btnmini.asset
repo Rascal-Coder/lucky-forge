@@ -9,14 +9,14 @@ Sprite:
   m_Name: btnmini
   m_Rect:
     serializedVersion: 2
-    x: 3.0761204
-    y: 3.0761204
-    width: 249.84775
-    height: 249.84775
-  m_Offset: {x: 1.4892086E-05, y: 1.4892086E-05}
-  m_Border: {x: 91.31916, y: 113.218864, z: 91.319145, w: 95.85012}
+    x: 0
+    y: 0
+    width: 256
+    height: 256
+  m_Offset: {x: 0, y: 0}
+  m_Border: {x: 94.3952789, y: 116.294983, z: 94.3952789, w: 98.9262543}
   m_PixelsToUnits: 75.51622
-  m_Pivot: {x: 0.50000006, y: 0.50000006}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 3.0761204
       width: 249.84775
       height: 249.84775
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 3.07612038, y: 3.07612038}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 75.51622, y: 128, z: 75.51622, w: 128}

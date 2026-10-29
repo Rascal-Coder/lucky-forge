@@ -9,14 +9,14 @@ Sprite:
   m_Name: HeroSkins_4
   m_Rect:
     serializedVersion: 2
-    x: 405.14
-    y: 419.95377
-    width: 78.85703
-    height: 84.948685
-  m_Offset: {x: 0.049333777, y: -0.5094147}
+    x: 405.073151
+    y: 419.902435
+    width: 79.0894318
+    height: 84.0325165
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 26.016258
-  m_Pivot: {x: 0.5006256, y: 0.49400327}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 419.95377
       width: 78.85703
       height: 84.948685
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 0.0668640137, y: 0.0513305664}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 26.016258, y: 445, z: 26.016258, w: 461.5}

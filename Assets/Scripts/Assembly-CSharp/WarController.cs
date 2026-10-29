@@ -1422,6 +1422,9 @@ public class WarController : MonoBehaviour
 
 	private void OnEnable()
 	{
+		// Partial OnEnable recovery: original ARM64 0x2056b04..0x2056b78 only.
+		// Other OnEnable behavior remains unrecovered; no SDK/ad/speed logic added.
+		if (GameManager.GuideDone) SoundManager.instance.BackgroundMusic(SoundManager._muzik);
 	}
 
 	private void Start()

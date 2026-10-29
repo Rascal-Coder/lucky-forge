@@ -61,3 +61,6 @@ Desktop.ini
 /Assets/OfflineRecovery/Generated.meta
 *.pdb
 *.mdb
+
+# Editor package browser registry selection and panel state
+/ProjectSettings/PackageManagerSettings.asset

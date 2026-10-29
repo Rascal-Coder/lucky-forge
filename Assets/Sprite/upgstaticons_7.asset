@@ -9,14 +9,14 @@ Sprite:
   m_Name: upgstaticons_7
   m_Rect:
     serializedVersion: 2
-    x: 422.62677
-    y: 23.02675
-    width: 170.9465
-    height: 157.89713
-  m_Offset: {x: 3.8999898, y: -0.72531325}
+    x: 409.600006
+    y: 0
+    width: 204.800003
+    height: 202.5
+  m_Offset: {x: 0, y: 0}
   m_Border: {x: 0, y: 0, z: 0, w: 0}
   m_PixelsToUnits: 70.06921
-  m_Pivot: {x: 0.5228141, y: 0.49540642}
+  m_Pivot: {x: 0.5, y: 0.5}
   m_Extrude: 1
   m_IsPolygon: 0
   m_AtlasName:
@@ -111,7 +111,7 @@ Sprite:
       y: 23.02675
       width: 170.9465
       height: 157.89713
-    textureRectOffset: {x: 0, y: 0}
+    textureRectOffset: {x: 13.0267639, y: 23.0267506}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
     uvTransform: {x: 70.06921, y: 512, z: 70.06921, w: 101.5}
